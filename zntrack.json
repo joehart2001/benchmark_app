@@ -1,0 +1,2447 @@
+{
+    "ref-data_lattice-constant-ref_LatticeConst-ref": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/ref-data/lattice-constant-ref/LatticeConst-ref"
+        },
+        "output_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/ref.json"
+        }
+    },
+    "ref-data_lattice-constant-ref-types_Lattice-ref-types": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/ref-data/lattice-constant-ref-types/Lattice-ref-types"
+        },
+        "output_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/ref.json"
+        }
+    },
+    "ref-data_atomisation-ref_AtomisationEnergy-ref": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/ref-data/atomisation-ref/AtomisationEnergy-ref"
+        },
+        "output_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/ref.json"
+        }
+    },
+    "build-crystals_BuildASEcrystal-Ag-fcc": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-Ag-fcc"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-Pd-fcc": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-Pd-fcc"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-Rh-fcc": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-Rh-fcc"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-Li-bcc": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-Li-bcc"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-Na-bcc": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-Na-bcc"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-K-bcc": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-K-bcc"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-Rb-bcc": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-Rb-bcc"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-Cs-bcc": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-Cs-bcc"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-Ca-fcc": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-Ca-fcc"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-Sr-fcc": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-Sr-fcc"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-Ba-bcc": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-Ba-bcc"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-Al-fcc": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-Al-fcc"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-LiF-rocksalt": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-LiF-rocksalt"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-NaF-rocksalt": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-NaF-rocksalt"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-NaCl-rocksalt": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-NaCl-rocksalt"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-MgO-rocksalt": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-MgO-rocksalt"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-Si-diamond": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-Si-diamond"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-Ge-diamond": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-Ge-diamond"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-GaAs-zincblende": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-GaAs-zincblende"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-Cu-fcc": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-Cu-fcc"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-C-diamond": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-C-diamond"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-LiCl-rocksalt": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-LiCl-rocksalt"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "build-crystals_BuildASEcrystal-SiC-2H-SiC": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/build-crystals/BuildASEcrystal-SiC-2H-SiC"
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.xyz"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ag": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-Ag"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Ag-fcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Pd": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-Pd"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Pd-fcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Rh": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-Rh"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Rh-fcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Li": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-Li"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Li-bcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Na": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-Na"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Na-bcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-K": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-K"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-K-bcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Rb": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-Rb"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Rb-bcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Cs": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-Cs"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Cs-bcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ca": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-Ca"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Ca-fcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Sr": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-Sr"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Sr-fcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ba": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-Ba"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Ba-bcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Al": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-Al"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Al-fcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-LiF": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-LiF"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-LiF-rocksalt",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-NaF": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-NaF"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-NaF-rocksalt",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-NaCl": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-NaCl"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-NaCl-rocksalt",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-MgO": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-MgO"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-MgO-rocksalt",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Si": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-Si"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Si-diamond",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ge": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-Ge"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Ge-diamond",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-GaAs": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-GaAs"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-GaAs-zincblende",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Cu": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-Cu"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Cu-fcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-C": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-C"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-C-diamond",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-LiCl": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-LiCl"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-LiCl-rocksalt",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_structure-optimization_StructureOptimization-SiC": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/structure-optimization/StructureOptimization-SiC"
+        },
+        "data": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-SiC-2H-SiC",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "frames_path": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/frames.traj"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-Ag": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Ag"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ag",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-Pd": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Pd"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Pd",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-Rh": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Rh"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Rh",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-Li": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Li"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Li",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-Na": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Na"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Na",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-K": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-K"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-K",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-Rb": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Rb"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Rb",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-Cs": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Cs"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Cs",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-Ca": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Ca"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ca",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-Sr": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Sr"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Sr",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-Ba": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Ba"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ba",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-Al": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Al"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Al",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-LiF": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-LiF"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-LiF",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-NaF": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-NaF"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-NaF",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-NaCl": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-NaCl"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-NaCl",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-MgO": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-MgO"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-MgO",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-Si": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Si"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Si",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-Ge": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Ge"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ge",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-GaAs": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-GaAs"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-GaAs",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-Cu": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Cu"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-Cu",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-C": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-C"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-C",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-LiCl": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-LiCl"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-LiCl",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_lattice-constant-pred_LatticeConst-SiC": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-SiC"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.structure_optimization",
+                        "name": "mace_mp_0b3_D3_structure-optimization_StructureOptimization-SiC",
+                        "cls": "StructureOptimization",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "lattice_const_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Ag": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-Ag"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Ag-fcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Pd": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-Pd"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Pd-fcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Rh": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-Rh"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Rh-fcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Li": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-Li"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Li-bcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Na": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-Na"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Na-bcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-K": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-K"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-K-bcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Rb": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-Rb"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Rb-bcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Cs": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-Cs"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Cs-bcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Ca": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-Ca"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Ca-fcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Sr": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-Sr"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Sr-fcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Ba": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-Ba"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Ba-bcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Al": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-Al"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Al-fcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-LiF": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-LiF"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-LiF-rocksalt",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-NaF": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-NaF"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-NaF-rocksalt",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-NaCl": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-NaCl"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-NaCl-rocksalt",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-MgO": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-MgO"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-MgO-rocksalt",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Si": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-Si"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Si-diamond",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Ge": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-Ge"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Ge-diamond",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-GaAs": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-GaAs"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-GaAs-zincblende",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Cu": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-Cu"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-Cu-fcc",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-C": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-C"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-C-diamond",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-LiCl": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-LiCl"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-LiCl-rocksalt",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    },
+    "mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-SiC": {
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/mace_mp_0b3_D3/atomisation-e-pred/AtomisationEnergy-SiC"
+        },
+        "structure": {
+            "_type": "znflow.Connection",
+            "value": {
+                "instance": {
+                    "_type": "zntrack.Node",
+                    "value": {
+                        "module": "mlipx.nodes.build_ase_crystal",
+                        "name": "build-crystals_BuildASEcrystal-SiC-2H-SiC",
+                        "cls": "BuildASEcrystal",
+                        "remote": null,
+                        "rev": null
+                    }
+                },
+                "attribute": "frames",
+                "item": null
+            }
+        },
+        "model": {
+            "_type": "@dataclasses.dataclass",
+            "value": {
+                "module": "mlipx.nodes.generic_ase",
+                "cls": "GenericASECalculator"
+            }
+        },
+        "atomisation_e_output": {
+            "_type": "pathlib.Path",
+            "value": "$nwd$/lattice_const.json"
+        }
+    }
+}

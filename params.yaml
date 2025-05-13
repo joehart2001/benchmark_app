@@ -1,0 +1,765 @@
+build-crystals_BuildASEcrystal-Ag-fcc:
+  a: 4.082
+  c: null
+  element: Ag
+  lattice_type: fcc
+  supercell: null
+build-crystals_BuildASEcrystal-Al-fcc:
+  a: 4.002
+  c: null
+  element: Al
+  lattice_type: fcc
+  supercell: null
+build-crystals_BuildASEcrystal-Ba-bcc:
+  a: 4.976
+  c: null
+  element: Ba
+  lattice_type: bcc
+  supercell: null
+build-crystals_BuildASEcrystal-C-diamond:
+  a: 3.562
+  c: null
+  element: C
+  lattice_type: diamond
+  supercell: null
+build-crystals_BuildASEcrystal-Ca-fcc:
+  a: 5.463
+  c: null
+  element: Ca
+  lattice_type: fcc
+  supercell: null
+build-crystals_BuildASEcrystal-Cs-bcc:
+  a: 6.106
+  c: null
+  element: Cs
+  lattice_type: bcc
+  supercell: null
+build-crystals_BuildASEcrystal-Cu-fcc:
+  a: 3.568
+  c: null
+  element: Cu
+  lattice_type: fcc
+  supercell: null
+build-crystals_BuildASEcrystal-GaAs-zincblende:
+  a: 5.69
+  c: null
+  element: GaAs
+  lattice_type: zincblende
+  supercell: null
+build-crystals_BuildASEcrystal-Ge-diamond:
+  a: 5.719
+  c: null
+  element: Ge
+  lattice_type: diamond
+  supercell: null
+build-crystals_BuildASEcrystal-K-bcc:
+  a: 5.191
+  c: null
+  element: K
+  lattice_type: bcc
+  supercell: null
+build-crystals_BuildASEcrystal-Li-bcc:
+  a: 3.352
+  c: null
+  element: Li
+  lattice_type: bcc
+  supercell: null
+build-crystals_BuildASEcrystal-LiCl-rocksalt:
+  a: 5.056
+  c: null
+  element: LiCl
+  lattice_type: rocksalt
+  supercell: null
+build-crystals_BuildASEcrystal-LiF-rocksalt:
+  a: 3.995
+  c: null
+  element: LiF
+  lattice_type: rocksalt
+  supercell: null
+build-crystals_BuildASEcrystal-MgO-rocksalt:
+  a: 4.203
+  c: null
+  element: MgO
+  lattice_type: rocksalt
+  supercell: null
+build-crystals_BuildASEcrystal-Na-bcc:
+  a: 4.107
+  c: null
+  element: Na
+  lattice_type: bcc
+  supercell: null
+build-crystals_BuildASEcrystal-NaCl-rocksalt:
+  a: 5.585
+  c: null
+  element: NaCl
+  lattice_type: rocksalt
+  supercell: null
+build-crystals_BuildASEcrystal-NaF-rocksalt:
+  a: 4.619
+  c: null
+  element: NaF
+  lattice_type: rocksalt
+  supercell: null
+build-crystals_BuildASEcrystal-Pd-fcc:
+  a: 3.891
+  c: null
+  element: Pd
+  lattice_type: fcc
+  supercell: null
+build-crystals_BuildASEcrystal-Rb-bcc:
+  a: 5.572
+  c: null
+  element: Rb
+  lattice_type: bcc
+  supercell: null
+build-crystals_BuildASEcrystal-Rh-fcc:
+  a: 3.76
+  c: null
+  element: Rh
+  lattice_type: fcc
+  supercell: null
+build-crystals_BuildASEcrystal-Si-diamond:
+  a: 5.434
+  c: null
+  element: Si
+  lattice_type: diamond
+  supercell: null
+build-crystals_BuildASEcrystal-SiC-2H-SiC:
+  a: 3.072
+  c: 5.029
+  element: SiC
+  lattice_type: 2H-SiC
+  supercell: null
+build-crystals_BuildASEcrystal-Sr-fcc:
+  a: 5.908
+  c: null
+  element: Sr
+  lattice_type: fcc
+  supercell: null
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Ag:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Al:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Ba:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-C:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Ca:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Cs:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Cu:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-GaAs:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Ge:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-K:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Li:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-LiCl:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-LiF:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-MgO:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Na:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-NaCl:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-NaF:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Pd:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Rb:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Rh:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Si:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-SiC:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_atomisation-e-pred_AtomisationEnergy-Sr:
+  formula: null
+  lattice_const: null
+  lattice_type: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  model_name: mace_mp_0b3_D3
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ag:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-Al:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ba:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-C:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ca:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-Cs:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-Cu:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-GaAs:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ge:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-K:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-Li:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-LiCl:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-LiF:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-MgO:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-Na:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-NaCl:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-NaF:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-Pd:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-Rb:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-Rh:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-Si:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-SiC:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+mace_mp_0b3_D3_structure-optimization_StructureOptimization-Sr:
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    kwargs:
+      dispersion: true
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
+    module: mace.calculators
+  optimizer: LBFGS
+  steps: 100000000
+ref-data_atomisation-ref_AtomisationEnergy-ref:
+  ref_path: /Users/joehart/.cache/my_benchmark/atomisation_energy/atomisation_ref.json
+ref-data_lattice-constant-ref-types_Lattice-ref-types:
+  ref_path: /Users/joehart/.cache/my_benchmark/lattice_constants/lattice_constants_ref_types.json
+ref-data_lattice-constant-ref_LatticeConst-ref:
+  ref_path: /Users/joehart/.cache/my_benchmark/lattice_constants/lattice_constants_ref.json
