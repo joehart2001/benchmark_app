@@ -1,5 +1,4 @@
-dash>=3.0.1
-zndraw>=0.3
+dash>=3.0.d
 plotly
 pandas
 numpy
