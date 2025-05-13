@@ -17,5 +17,6 @@ app_lattice_const, *_ = mlipx.LatticeConstant.mae_plot_interactive(
 )
 
 
+
 if __name__ == "__main__":
     app_lattice_const.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8050)))
