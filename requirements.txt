@@ -4,7 +4,6 @@ pandas
 numpy
 ase
 zntrack
-mlipx
 tqdm
 pyyaml
 matplotlib
