@@ -2,7 +2,8 @@
 import mlipx
 import pickle
 import os
-
+import zntrack
+project = zntrack.Project(directory=".")
 
 with open("lattice_const_dict.pkl", "rb") as f:
     lattice_const_dict = pickle.load(f)
