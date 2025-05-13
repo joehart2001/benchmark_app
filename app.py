@@ -3,12 +3,31 @@ import mlipx
 import pickle
 import os
 import zntrack
-#project = zntrack.Project(directory=".")
+# project = zntrack.Project(directory=".")
+# lattice_const_ref_node = project.load("LatticeConst-ref")
+import yaml
 
-with open("lattice_const_dict.pkl", "rb") as f:
-    lattice_const_dict = pickle.load(f)
-with open("ref_lat_const_node.pkl", "rb") as f:
-    lattice_const_ref_node = pickle.load(f)
+# Specify the file path and mode for opening the file
+with open("new_model_registry.yaml", "r") as file:
+	data = yaml.safe_load(file)
+
+models = list(data.keys())
+
+import dvc.api
+import json
+from mlipx.cli.main import load_node_objects, load_nodes_and_ref_node
+
+fs = dvc.api.DVCFileSystem()
+with fs.open("zntrack.json", mode="r") as f:
+    all_nodes = list(json.load(f).keys())
+
+nodes = ["*LatticeConst*"]
+glob = True
+
+node_objects = load_node_objects(nodes, glob, models, all_nodes, split_str="_lattice-constant")
+
+lattice_const_dict, lattice_const_ref_node = load_nodes_and_ref_node(node_objects, models, split_str="_lattice-constant")
+
 
 print(f"output path {lattice_const_ref_node.output_path}")
 
