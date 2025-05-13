@@ -1,4 +1,4 @@
-dash>=3.0.d
+dash
 plotly
 pandas
 numpy
