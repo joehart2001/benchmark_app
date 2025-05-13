@@ -1,10 +1,10 @@
-# mace_mp_D3:
-#   module: mace.calculators
-#   class_name: mace_mp
-#   device: "auto"
-#   kwargs:
-#     model: "medium"
-#     dispersion: True
+mace_mp_0a_D3:
+  module: mace.calculators
+  class_name: mace_mp
+  device: "auto"
+  kwargs:
+    model: "medium"
+    dispersion: True
 
 mace_mp_0b3_D3:
   module: mace.calculators
@@ -14,12 +14,45 @@ mace_mp_0b3_D3:
     model: "/Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model"
     dispersion: True
 
-# mace_omat_D3:
+mace_mpa_0_D3:
+  module: mace.calculators
+  class_name: mace_mp
+  device: "auto"
+  kwargs:
+    model: "/Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mpa-0-medium.model"
+    dispersion: True
+  
+
+mace_omat_0_D3:
+  module: mace.calculators
+  class_name: mace_mp
+  device: "auto"
+  kwargs:
+    model: "/Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model"
+    dispersion: True
+
+mace_matpes_PBE_0_D3:
+  module: mace.calculators
+  class_name: mace_mp
+  device: "auto"
+  kwargs:
+    model: "/Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/MACE-matpes-pbe-omat-ft.model"
+    dispersion: True
+
+mace_matpes_r2scan_0_D3:
+  module: mace.calculators
+  class_name: mace_mp
+  device: "auto"
+  kwargs:
+    model: "/Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/MACE-matpes-r2scan-omat-ft.model"
+    dispersion: True
+    dispersion_xc: "r2scan"
+
+# mace_off:
 #   module: mace.calculators
 #   class_name: mace_mp
 #   device: "auto"
 #   kwargs:
-#     model: "/Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/Written_assignments/MACE-MP-0/Notebooks_mace/mace_test/mace-omat-0-medium.model"
+#     model: "/Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/MACE-OFF23_medium.model"
 #     dispersion: True
-
 
