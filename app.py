@@ -30,6 +30,7 @@ node_objects = load_node_objects(nodes, glob, models, all_nodes, split_str="_lat
 lattice_const_dict, lattice_const_ref_node = load_nodes_and_ref_node_lat(node_objects, models, split_str="_lattice-constant")
 
 
+
 print(f"output path {lattice_const_ref_node.output_path}")
 
 app_lattice_const, *_ = mlipx.LatticeConstant.mae_plot_interactive(
