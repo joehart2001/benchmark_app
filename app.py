@@ -11,7 +11,7 @@ with open("new_model_registry.yaml", "r") as file:
 	data = yaml.safe_load(file)
 models = list(data.keys()) + ["ref-data"]
 
-
+# RM GITIGNORES IN NODE FOLDERS
 
 import dvc.api
 import json
