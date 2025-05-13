@@ -138,7 +138,7 @@ build-crystals_BuildASEcrystal-Sr-fcc:
   supercell: null
 lattice-constant-ref-data_lattice-constant-ref-types_Lattice-ref-types:
   ref_path: /Users/joehart/.cache/my_benchmark/lattice_constants/lattice_constants_ref_types.json
-lattice-constant-ref-data_lattice-constant-ref_LatticeConst-ref:
+ref_lattice-constant_LatticeConst-ref:
   ref_path: /Users/joehart/.cache/my_benchmark/lattice_constants/lattice_constants_ref.json
 mace_matpes_PBE_0_D3_DMCICE13Benchmark:
   model:

@@ -1152,20 +1152,20 @@
             "value": "$nwd$/mae.csv"
         }
     },
-    "lattice-constant-ref-data_lattice-constant-ref_LatticeConst-ref": {
+    "ref_lattice-constant_LatticeConst-ref": {
         "nwd": {
             "_type": "pathlib.Path",
-            "value": "nodes/lattice-constant-ref-data/lattice-constant-ref/LatticeConst-ref"
+            "value": "nodes/ref/lattice-constant/LatticeConst-ref"
         },
         "output_path": {
             "_type": "pathlib.Path",
             "value": "$nwd$/ref.json"
         }
     },
-    "lattice-constant-ref-data_lattice-constant-ref-types_Lattice-ref-types": {
+    "ref_lattice-constant_Lattice-ref-types": {
         "nwd": {
             "_type": "pathlib.Path",
-            "value": "nodes/lattice-constant-ref-data/lattice-constant-ref-types/Lattice-ref-types"
+            "value": "nodes/ref/lattice-constant/Lattice-ref-types"
         },
         "output_path": {
             "_type": "pathlib.Path",

@@ -420,24 +420,24 @@ stages:
     metrics:
     - nodes/full-benchmark/FullBenchmark/node-meta.json:
         cache: false
-  lattice-constant-ref-data_lattice-constant-ref-types_Lattice-ref-types:
-    cmd: zntrack run mlipx.nodes.ref_to_node.RefToNode --name lattice-constant-ref-data_lattice-constant-ref-types_Lattice-ref-types
+  ref_lattice-constant_Lattice-ref-types:
+    cmd: zntrack run mlipx.nodes.ref_to_node.RefToNode --name ref_lattice-constant_Lattice-ref-types
     metrics:
-    - nodes/lattice-constant-ref-data/lattice-constant-ref-types/Lattice-ref-types/node-meta.json:
+    - nodes/ref/lattice-constant/Lattice-ref-types/node-meta.json:
         cache: false
     outs:
-    - nodes/lattice-constant-ref-data/lattice-constant-ref-types/Lattice-ref-types/ref.json
+    - nodes/ref/lattice-constant/Lattice-ref-types/ref.json
     params:
-    - lattice-constant-ref-data_lattice-constant-ref-types_Lattice-ref-types
-  lattice-constant-ref-data_lattice-constant-ref_LatticeConst-ref:
-    cmd: zntrack run mlipx.nodes.ref_to_node.RefToNode --name lattice-constant-ref-data_lattice-constant-ref_LatticeConst-ref
+    - ref_lattice-constant_Lattice-ref-types
+  ref_lattice-constant_LatticeConst-ref:
+    cmd: zntrack run mlipx.nodes.ref_to_node.RefToNode --name ref_lattice-constant_LatticeConst-ref
     metrics:
-    - nodes/lattice-constant-ref-data/lattice-constant-ref/LatticeConst-ref/node-meta.json:
+    - nodes/ref/lattice-constant/LatticeConst-ref/node-meta.json:
         cache: false
     outs:
-    - nodes/lattice-constant-ref-data/lattice-constant-ref/LatticeConst-ref/ref.json
+    - nodes/ref/lattice-constant/LatticeConst-ref/ref.json
     params:
-    - lattice-constant-ref-data_lattice-constant-ref_LatticeConst-ref
+    - ref_lattice-constant_LatticeConst-ref
   mace_matpes_PBE_0_D3_DMCICE13Benchmark:
     cmd: zntrack run mlipx.nodes.DMC_ICE_13_benchmark.DMCICE13Benchmark --name mace_matpes_PBE_0_D3_DMCICE13Benchmark
     metrics:
