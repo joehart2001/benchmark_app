@@ -242,6 +242,69 @@ stages:
     - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/phonon_obj.yaml
     - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/qpoints.pkl
     - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/thermal_properties.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/thermal_properties.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/thermal_properties.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/thermal_properties.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/thermal_properties.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/thermal_properties.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/thermal_properties.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/thermal_properties.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/thermal_properties.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/thermal_properties.json
     - nodes/mace_matpes_r2scan_0_D3/Elasticity/mae.csv
     - nodes/mace_matpes_r2scan_0_D3/Elasticity/moduli_results.csv
     - nodes/mace_matpes_r2scan_0_D3/lattice-constant-pred/LatticeConst-Ag/lattice_const.json
@@ -274,6 +337,69 @@ stages:
     - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/phonon_obj.yaml
     - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/qpoints.pkl
     - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/thermal_properties.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/thermal_properties.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/thermal_properties.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/thermal_properties.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/thermal_properties.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/thermal_properties.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/thermal_properties.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/thermal_properties.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/thermal_properties.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/thermal_properties.json
     - nodes/mace_mp_0a_D3/Elasticity/mae.csv
     - nodes/mace_mp_0a_D3/Elasticity/moduli_results.csv
     - nodes/mace_mp_0a_D3/lattice-constant-pred/LatticeConst-Ag/lattice_const.json
@@ -306,6 +432,69 @@ stages:
     - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/phonon_obj.yaml
     - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/qpoints.pkl
     - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/thermal_properties.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/thermal_properties.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/thermal_properties.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/thermal_properties.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/thermal_properties.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/thermal_properties.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/thermal_properties.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/thermal_properties.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/thermal_properties.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/thermal_properties.json
     - nodes/mace_mp_0b3_D3/Elasticity/mae.csv
     - nodes/mace_mp_0b3_D3/Elasticity/moduli_results.csv
     - nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Ag/lattice_const.json
@@ -338,6 +527,69 @@ stages:
     - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/phonon_obj.yaml
     - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/qpoints.pkl
     - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/thermal_properties.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/thermal_properties.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/thermal_properties.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/thermal_properties.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/thermal_properties.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/thermal_properties.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/thermal_properties.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/thermal_properties.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/thermal_properties.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/thermal_properties.json
     - nodes/mace_mpa_0_D3/Elasticity/mae.csv
     - nodes/mace_mpa_0_D3/Elasticity/moduli_results.csv
     - nodes/mace_mpa_0_D3/lattice-constant-pred/LatticeConst-Ag/lattice_const.json
@@ -370,6 +622,69 @@ stages:
     - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/phonon_obj.yaml
     - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/qpoints.pkl
     - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/thermal_properties.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/thermal_properties.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/thermal_properties.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/thermal_properties.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/thermal_properties.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/thermal_properties.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/thermal_properties.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/thermal_properties.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/thermal_properties.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/thermal_properties.json
     - nodes/mace_omat_0_D3/Elasticity/mae.csv
     - nodes/mace_omat_0_D3/Elasticity/moduli_results.csv
     - nodes/mace_omat_0_D3/lattice-constant-pred/LatticeConst-Ag/lattice_const.json
@@ -402,6 +717,69 @@ stages:
     - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/phonon_obj.yaml
     - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/qpoints.pkl
     - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/thermal_properties.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/thermal_properties.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/thermal_properties.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/thermal_properties.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/thermal_properties.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/thermal_properties.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/thermal_properties.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/thermal_properties.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/thermal_properties.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/thermal_properties.json
     - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-1000/band_structure.npz
     - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-1000/connections.json
     - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-1000/dos.npz
@@ -409,6 +787,69 @@ stages:
     - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-1000/phonon_obj.yaml
     - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-1000/qpoints.pkl
     - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-1000/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/thermal_properties.json
     metrics:
     - nodes/bulk-crystal-benchmark/BulkCrystalBenchmark/node-meta.json:
         cache: false
@@ -703,6 +1144,195 @@ stages:
     - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/thermal_properties.json
     params:
     - mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-1000
+  mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163
+    deps:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10163/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10163/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163
+  mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226
+    deps:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10226/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10226/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226
+  mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299
+    deps:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10299/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10299/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299
+  mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349
+    deps:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10349/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10349/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349
+  mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409
+    deps:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10409/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10409/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409
+  mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476
+    deps:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10476/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10476/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476
+  mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509
+    deps:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10509/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10509/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509
+  mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556
+    deps:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10556/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10556/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556
+  mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694
+    deps:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10694/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10694/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/band_structure.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/connections.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/dos.npz
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/labels.json
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/phonon_obj.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/qpoints.pkl
+    - nodes/mace_matpes_PBE_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694
   mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-1000:
     cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-1000
     deps:
@@ -715,6 +1345,114 @@ stages:
     - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-1000/thermal_properties.json
     params:
     - mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-1000
+  mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10163:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10163
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10163/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10163/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10163/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10163/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10163
+  mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10226:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10226
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10226/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10226/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10226/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10226/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10226
+  mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10299:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10299
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10299/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10299/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10299/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10299/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10299
+  mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10349:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10349
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10349/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10349/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10349/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10349/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10349
+  mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10409:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10409
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10409/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10409/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10409/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10409/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10409
+  mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10476:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10476
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10476/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10476/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10476/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10476/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10476
+  mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10509:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10509
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10509/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10509/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10509/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10509/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10509
+  mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10556:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10556
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10556/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10556/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10556/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10556/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10556
+  mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10694:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10694
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10694/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10694/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10694/force_constants.yaml
+    - nodes/mace_matpes_PBE_0_D3/phonons-fc2/PhononForceConstants_mp-10694/thermal_properties.json
+    params:
+    - mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10694
   mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Ag:
     cmd: zntrack run mlipx.nodes.structure_optimization.StructureOptimization --name
       mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Ag
@@ -1274,6 +2012,195 @@ stages:
     - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/thermal_properties.json
     params:
     - mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-1000
+  mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163
+    deps:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10163/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10163/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163
+  mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226
+    deps:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10226/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10226/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226
+  mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299
+    deps:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10299/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10299/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299
+  mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349
+    deps:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10349/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10349/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349
+  mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409
+    deps:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10409/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10409/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409
+  mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476
+    deps:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10476/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10476/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476
+  mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509
+    deps:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10509/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10509/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509
+  mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556
+    deps:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10556/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10556/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556
+  mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694
+    deps:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10694/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10694/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/qpoints.pkl
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/band_structure.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/connections.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/dos.npz
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/labels.json
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/phonon_obj.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/qpoints.pkl
+    - nodes/mace_matpes_r2scan_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694
   mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-1000:
     cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-1000
     deps:
@@ -1286,6 +2213,114 @@ stages:
     - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-1000/thermal_properties.json
     params:
     - mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-1000
+  mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10163:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10163
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10163/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10163/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10163/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10163/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10163
+  mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10226:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10226
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10226/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10226/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10226/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10226/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10226
+  mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10299:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10299
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10299/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10299/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10299/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10299/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10299
+  mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10349:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10349
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10349/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10349/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10349/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10349/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10349
+  mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10409:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10409
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10409/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10409/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10409/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10409/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10409
+  mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10476:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10476
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10476/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10476/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10476/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10476/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10476
+  mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10509:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10509
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10509/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10509/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10509/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10509/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10509
+  mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10556:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10556
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10556/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10556/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10556/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10556/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10556
+  mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10694:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10694
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10694/force_constants.yaml
+    metrics:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10694/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10694/force_constants.yaml
+    - nodes/mace_matpes_r2scan_0_D3/phonons-fc2/PhononForceConstants_mp-10694/thermal_properties.json
+    params:
+    - mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10694
   mace_matpes_r2scan_0_D3_structure-optimization_StructureOptimization-Ag:
     cmd: zntrack run mlipx.nodes.structure_optimization.StructureOptimization --name
       mace_matpes_r2scan_0_D3_structure-optimization_StructureOptimization-Ag
@@ -1845,6 +2880,195 @@ stages:
     - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/thermal_properties.json
     params:
     - mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-1000
+  mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10163
+    deps:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10163/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10163/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10163
+  mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10226
+    deps:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10226/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10226/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10226
+  mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10299
+    deps:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10299/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10299/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10299
+  mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10349
+    deps:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10349/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10349/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10349
+  mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10409:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10409
+    deps:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10409/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10409/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10409
+  mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10476:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10476
+    deps:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10476/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10476/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10476
+  mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10509:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10509
+    deps:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10509/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10509/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10509
+  mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10556:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10556
+    deps:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10556/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10556/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10556
+  mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10694:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10694
+    deps:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10694/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10694/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/band_structure.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/connections.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/dos.npz
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/labels.json
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/phonon_obj.yaml
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/qpoints.pkl
+    - nodes/mace_mp_0a_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10694
   mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-1000:
     cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-1000
     deps:
@@ -1857,6 +3081,114 @@ stages:
     - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-1000/thermal_properties.json
     params:
     - mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-1000
+  mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10163:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10163
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10163/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10163/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10163/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10163/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10163
+  mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10226:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10226
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10226/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10226/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10226/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10226/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10226
+  mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10299:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10299
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10299/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10299/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10299/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10299/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10299
+  mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10349:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10349
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10349/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10349/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10349/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10349/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10349
+  mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10409:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10409
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10409/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10409/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10409/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10409/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10409
+  mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10476:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10476
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10476/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10476/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10476/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10476/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10476
+  mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10509:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10509
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10509/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10509/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10509/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10509/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10509
+  mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10556:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10556
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10556/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10556/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10556/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10556/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10556
+  mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10694:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10694
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10694/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10694/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10694/force_constants.yaml
+    - nodes/mace_mp_0a_D3/phonons-fc2/PhononForceConstants_mp-10694/thermal_properties.json
+    params:
+    - mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10694
   mace_mp_0a_D3_structure-optimization_StructureOptimization-Ag:
     cmd: zntrack run mlipx.nodes.structure_optimization.StructureOptimization --name
       mace_mp_0a_D3_structure-optimization_StructureOptimization-Ag
@@ -2416,6 +3748,195 @@ stages:
     - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/thermal_properties.json
     params:
     - mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-1000
+  mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10163
+    deps:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10163/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10163/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10163
+  mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10226
+    deps:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10226/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10226/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10226
+  mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10299
+    deps:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10299/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10299/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10299
+  mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10349
+    deps:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10349/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10349/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10349
+  mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10409:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10409
+    deps:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10409/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10409/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10409
+  mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10476:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10476
+    deps:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10476/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10476/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10476
+  mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10509:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10509
+    deps:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10509/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10509/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10509
+  mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10556:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10556
+    deps:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10556/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10556/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10556
+  mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10694:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10694
+    deps:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10694/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10694/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/qpoints.pkl
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/band_structure.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/connections.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/dos.npz
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/labels.json
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/phonon_obj.yaml
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/qpoints.pkl
+    - nodes/mace_mp_0b3_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10694
   mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-1000:
     cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-1000
     deps:
@@ -2428,6 +3949,114 @@ stages:
     - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-1000/thermal_properties.json
     params:
     - mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-1000
+  mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10163:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10163
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10163/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10163/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10163/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10163/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10163
+  mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10226:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10226
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10226/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10226/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10226/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10226/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10226
+  mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10299:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10299
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10299/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10299/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10299/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10299/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10299
+  mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10349:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10349
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10349/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10349/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10349/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10349/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10349
+  mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10409:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10409
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10409/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10409/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10409/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10409/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10409
+  mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10476:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10476
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10476/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10476/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10476/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10476/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10476
+  mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10509:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10509
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10509/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10509/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10509/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10509/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10509
+  mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10556:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10556
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10556/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10556/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10556/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10556/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10556
+  mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10694:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10694
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10694/force_constants.yaml
+    metrics:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10694/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10694/force_constants.yaml
+    - nodes/mace_mp_0b3_D3/phonons-fc2/PhononForceConstants_mp-10694/thermal_properties.json
+    params:
+    - mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10694
   mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ag:
     cmd: zntrack run mlipx.nodes.structure_optimization.StructureOptimization --name
       mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ag
@@ -2987,6 +4616,195 @@ stages:
     - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/thermal_properties.json
     params:
     - mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-1000
+  mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163
+    deps:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10163/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10163/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/qpoints.pkl
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163
+  mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226
+    deps:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10226/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10226/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/qpoints.pkl
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226
+  mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299
+    deps:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10299/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10299/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/qpoints.pkl
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299
+  mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349
+    deps:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10349/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10349/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/qpoints.pkl
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349
+  mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409
+    deps:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10409/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10409/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/qpoints.pkl
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409
+  mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476
+    deps:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10476/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10476/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/qpoints.pkl
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476
+  mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509
+    deps:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10509/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10509/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/qpoints.pkl
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509
+  mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556
+    deps:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10556/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10556/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/qpoints.pkl
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556
+  mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694
+    deps:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10694/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10694/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/qpoints.pkl
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/band_structure.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/connections.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/dos.npz
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/labels.json
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/phonon_obj.yaml
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/qpoints.pkl
+    - nodes/mace_mpa_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694
   mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-1000:
     cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-1000
     deps:
@@ -2999,6 +4817,114 @@ stages:
     - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-1000/thermal_properties.json
     params:
     - mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-1000
+  mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10163:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10163
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10163/force_constants.yaml
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10163/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10163/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10163/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10163
+  mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10226:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10226
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10226/force_constants.yaml
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10226/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10226/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10226/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10226
+  mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10299:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10299
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10299/force_constants.yaml
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10299/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10299/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10299/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10299
+  mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10349:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10349
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10349/force_constants.yaml
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10349/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10349/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10349/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10349
+  mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10409:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10409
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10409/force_constants.yaml
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10409/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10409/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10409/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10409
+  mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10476:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10476
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10476/force_constants.yaml
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10476/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10476/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10476/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10476
+  mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10509:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10509
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10509/force_constants.yaml
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10509/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10509/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10509/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10509
+  mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10556:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10556
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10556/force_constants.yaml
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10556/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10556/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10556/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10556
+  mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10694:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10694
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10694/force_constants.yaml
+    metrics:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10694/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10694/force_constants.yaml
+    - nodes/mace_mpa_0_D3/phonons-fc2/PhononForceConstants_mp-10694/thermal_properties.json
+    params:
+    - mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10694
   mace_mpa_0_D3_structure-optimization_StructureOptimization-Ag:
     cmd: zntrack run mlipx.nodes.structure_optimization.StructureOptimization --name
       mace_mpa_0_D3_structure-optimization_StructureOptimization-Ag
@@ -3558,6 +5484,195 @@ stages:
     - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-1000/thermal_properties.json
     params:
     - mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-1000
+  mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163
+    deps:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10163/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10163/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/qpoints.pkl
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10163/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163
+  mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226
+    deps:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10226/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10226/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/qpoints.pkl
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10226/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226
+  mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299
+    deps:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10299/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10299/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/qpoints.pkl
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10299/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299
+  mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349
+    deps:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10349/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10349/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/qpoints.pkl
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10349/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349
+  mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409
+    deps:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10409/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10409/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/qpoints.pkl
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10409/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409
+  mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476
+    deps:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10476/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10476/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/qpoints.pkl
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10476/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476
+  mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509
+    deps:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10509/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10509/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/qpoints.pkl
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10509/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509
+  mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556
+    deps:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10556/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10556/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/qpoints.pkl
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10556/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556
+  mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694
+    deps:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10694/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10694/thermal_properties.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/qpoints.pkl
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/band_structure.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/connections.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/dos.npz
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/labels.json
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/phonon_obj.yaml
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/qpoints.pkl
+    - nodes/mace_omat_0_D3/phonons-dispersion-pred/PhononDispersion_mp-10694/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694
   mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-1000:
     cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-1000
     deps:
@@ -3570,6 +5685,114 @@ stages:
     - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-1000/thermal_properties.json
     params:
     - mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-1000
+  mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10163:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10163
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10163/force_constants.yaml
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10163/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10163/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10163/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10163
+  mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10226:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10226
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10226/force_constants.yaml
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10226/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10226/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10226/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10226
+  mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10299:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10299
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10299/force_constants.yaml
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10299/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10299/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10299/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10299
+  mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10349:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10349
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10349/force_constants.yaml
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10349/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10349/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10349/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10349
+  mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10409:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10409
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10409/force_constants.yaml
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10409/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10409/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10409/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10409
+  mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10476:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10476
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10476/force_constants.yaml
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10476/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10476/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10476/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10476
+  mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10509:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10509
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10509/force_constants.yaml
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10509/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10509/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10509/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10509
+  mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10556:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10556
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10556/force_constants.yaml
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10556/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10556/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10556/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10556
+  mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10694:
+    cmd: zntrack run mlipx.nodes.phonon_fc2_node.PhononForceConstants --name mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10694
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10694/force_constants.yaml
+    metrics:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10694/node-meta.json:
+        cache: false
+    outs:
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10694/force_constants.yaml
+    - nodes/mace_omat_0_D3/phonons-fc2/PhononForceConstants_mp-10694/thermal_properties.json
+    params:
+    - mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10694
   mace_omat_0_D3_structure-optimization_StructureOptimization-Ag:
     cmd: zntrack run mlipx.nodes.structure_optimization.StructureOptimization --name
       mace_omat_0_D3_structure-optimization_StructureOptimization-Ag
@@ -3931,6 +6154,168 @@ stages:
     - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-1000/thermal_properties.json
     params:
     - phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-1000
+  phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10163:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10163
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10163/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10163/thermal_properties.json
+    metrics:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10163/thermal_properties.json
+    params:
+    - phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10163
+  phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10226:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10226
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10226/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10226/thermal_properties.json
+    metrics:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10226/thermal_properties.json
+    params:
+    - phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10226
+  phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10299:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10299
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10299/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10299/thermal_properties.json
+    metrics:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10299/thermal_properties.json
+    params:
+    - phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10299
+  phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10349:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10349
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10349/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10349/thermal_properties.json
+    metrics:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10349/thermal_properties.json
+    params:
+    - phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10349
+  phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10409:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10409
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10409/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10409/thermal_properties.json
+    metrics:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10409/thermal_properties.json
+    params:
+    - phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10409
+  phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10476:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10476
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10476/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10476/thermal_properties.json
+    metrics:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10476/thermal_properties.json
+    params:
+    - phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10476
+  phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10509:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10509
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10509/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10509/thermal_properties.json
+    metrics:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10509/thermal_properties.json
+    params:
+    - phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10509
+  phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10556:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10556
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10556/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10556/thermal_properties.json
+    metrics:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10556/thermal_properties.json
+    params:
+    - phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10556
+  phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10694:
+    cmd: zntrack run mlipx.nodes.phonon_dispersion_node.PhononDispersion --name phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10694
+    deps:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10694/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10694/thermal_properties.json
+    metrics:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/band_structure.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/connections.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/dos.npz
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/labels.json
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/phonon_obj.yaml
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/qpoints.pkl
+    - nodes/phonon-reference/phonons-dispersion-ref/PhononDispersion_mp-10694/thermal_properties.json
+    params:
+    - phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10694
   phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-1000:
     cmd: zntrack run mlipx.nodes.phonon_ref_to_node.PhononRefToNode --name phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-1000
     metrics:
@@ -3941,6 +6326,96 @@ stages:
     - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-1000/thermal_properties.json
     params:
     - phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-1000
+  phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10163:
+    cmd: zntrack run mlipx.nodes.phonon_ref_to_node.PhononRefToNode --name phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10163
+    metrics:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10163/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10163/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10163/thermal_properties.json
+    params:
+    - phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10163
+  phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10226:
+    cmd: zntrack run mlipx.nodes.phonon_ref_to_node.PhononRefToNode --name phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10226
+    metrics:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10226/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10226/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10226/thermal_properties.json
+    params:
+    - phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10226
+  phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10299:
+    cmd: zntrack run mlipx.nodes.phonon_ref_to_node.PhononRefToNode --name phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10299
+    metrics:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10299/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10299/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10299/thermal_properties.json
+    params:
+    - phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10299
+  phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10349:
+    cmd: zntrack run mlipx.nodes.phonon_ref_to_node.PhononRefToNode --name phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10349
+    metrics:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10349/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10349/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10349/thermal_properties.json
+    params:
+    - phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10349
+  phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10409:
+    cmd: zntrack run mlipx.nodes.phonon_ref_to_node.PhononRefToNode --name phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10409
+    metrics:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10409/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10409/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10409/thermal_properties.json
+    params:
+    - phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10409
+  phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10476:
+    cmd: zntrack run mlipx.nodes.phonon_ref_to_node.PhononRefToNode --name phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10476
+    metrics:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10476/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10476/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10476/thermal_properties.json
+    params:
+    - phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10476
+  phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10509:
+    cmd: zntrack run mlipx.nodes.phonon_ref_to_node.PhononRefToNode --name phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10509
+    metrics:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10509/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10509/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10509/thermal_properties.json
+    params:
+    - phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10509
+  phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10556:
+    cmd: zntrack run mlipx.nodes.phonon_ref_to_node.PhononRefToNode --name phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10556
+    metrics:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10556/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10556/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10556/thermal_properties.json
+    params:
+    - phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10556
+  phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10694:
+    cmd: zntrack run mlipx.nodes.phonon_ref_to_node.PhononRefToNode --name phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10694
+    metrics:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10694/node-meta.json:
+        cache: false
+    outs:
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10694/force_constants.yaml
+    - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-10694/thermal_properties.json
+    params:
+    - phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10694
   ref_lattice-constant_Lattice-ref-types:
     cmd: zntrack run mlipx.nodes.ref_to_node.RefToNode --name ref_lattice-constant_Lattice-ref-types
     metrics:
