@@ -1,0 +1,4 @@
+2
+Lattice="0.0 2.528 2.528 2.528 0.0 2.528 2.528 2.528 0.0" Properties=species:S:1:pos:R:3 lattice_type=rocksalt pbc="T T T"
+Li       0.00000000       0.00000000       0.00000000
+Cl       2.52800000       0.00000000       0.00000000

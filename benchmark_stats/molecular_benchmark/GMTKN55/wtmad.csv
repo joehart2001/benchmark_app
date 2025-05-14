@@ -1,7 +1,0 @@
-Model,Weighted Total MAD/MAE [kcal/mol] ↓,Rank
-mace_matpes_PBE_0_D3,34.6,5
-mace_mp_0a_D3,45.04,1
-mace_mp_0b3_D3,47.9,2
-mace_omat_0_D3,64.15,4
-mace_mpa_0_D3,67.26,3
-mace_matpes_r2scan_0_D3,74.42,6

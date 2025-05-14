@@ -1,7 +1,0 @@
-Model,Avg MAE ↓,Rank
-mace_omat_0_D3,5.335,1
-mace_matpes_r2scan_0_D3,5.391,2
-mace_mpa_0_D3,6.422,3
-mace_mp_0a_D3,9.446,4
-mace_matpes_PBE_0_D3,9.703,5
-mace_mp_0b3_D3,11.553,6
