@@ -1,400 +1,400 @@
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043680587074705 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30436802890514814 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000
 Ne       0.00000000       0.00000000       0.18000000       0.00000000       0.00000000      -0.00000000
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043680587074705 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30436802890514814 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00000001
 Ne       0.00000000       0.00000000       0.23878788       0.00000000       0.00000000      -0.00000001
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043680602913816 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043680304890592 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00000004
 Ne       0.00000000       0.00000000       0.29757576       0.00000000       0.00000000      -0.00000004
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.304368064647137 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043680348448146 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00000010
 Ne       0.00000000       0.00000000       0.35636364       0.00000000       0.00000000      -0.00000010
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30436807415060346 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043680443482811 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00000022
 Ne       0.00000000       0.00000000       0.41515152       0.00000000       0.00000000      -0.00000022
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043680927615586 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043680629592362 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00000044
 Ne       0.00000000       0.00000000       0.47393939       0.00000000       0.00000000      -0.00000044
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30436812760760223 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30436809780527985 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00000079
 Ne       0.00000000       0.00000000       0.53272727       0.00000000       0.00000000      -0.00000079
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30436818858817855 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30436815878585616 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00000133
 Ne       0.00000000       0.00000000       0.59151515       0.00000000       0.00000000      -0.00000133
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30436828956250955 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30436825976018717 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00000214
 Ne       0.00000000       0.00000000       0.65030303       0.00000000       0.00000000      -0.00000214
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30436844755763914 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30436841775531676 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00000331
 Ne       0.00000000       0.00000000       0.70909091       0.00000000       0.00000000      -0.00000331
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043686875201669 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043686577178445 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00000494
 Ne       0.00000000       0.00000000       0.76787879       0.00000000       0.00000000      -0.00000494
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30436904073233634 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30436901093001395 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00000718
 Ne       0.00000000       0.00000000       0.82666667       0.00000000       0.00000000      -0.00000718
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043695463959467 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043695165936243 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00001015
 Ne       0.00000000       0.00000000       0.88545455       0.00000000       0.00000000      -0.00001015
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30437025242430793 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30437022262198554 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00001406
 Ne       0.00000000       0.00000000       0.94424242       0.00000000       0.00000000      -0.00001406
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043712205899519 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30437119078762953 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00001908
 Ne       0.00000000       0.00000000       1.00303030       0.00000000       0.00000000      -0.00001908
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043725229608325 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043724931585101 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00002547
 Ne       0.00000000       0.00000000       1.06181818       0.00000000       0.00000000      -0.00002547
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043742474440143 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043742176416919 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00003348
 Ne       0.00000000       0.00000000       1.12060606       0.00000000       0.00000000      -0.00003348
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30437649738969486 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30437646758737247 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00004341
 Ne       0.00000000       0.00000000       1.17939394       0.00000000       0.00000000      -0.00004341
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30437939515500473 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30437936535268234 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00005558
 Ne       0.00000000       0.00000000       1.23818182       0.00000000       0.00000000      -0.00005558
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3043830828959627 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30438305309364033 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00007034
 Ne       0.00000000       0.00000000       1.29696970       0.00000000       0.00000000      -0.00007034
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30438772454736496 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30438769474504257 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00008810
 Ne       0.00000000       0.00000000       1.35575758       0.00000000       0.00000000      -0.00008810
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30439350819865163 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30439347839632924 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00010927
 Ne       0.00000000       0.00000000       1.41454545       0.00000000       0.00000000      -0.00010927
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3044006480737953 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3044006182714729 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00013430
 Ne       0.00000000       0.00000000       1.47333333       0.00000000       0.00000000      -0.00013430
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3044093841353238 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3044093543330014 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00016367
 Ne       0.00000000       0.00000000       1.53212121       0.00000000       0.00000000      -0.00016367
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30441998564811973 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30441995584579734 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00019785
 Ne       0.00000000       0.00000000       1.59090909       0.00000000       0.00000000      -0.00019785
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3044327507834427 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3044327209811203 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00023735
 Ne       0.00000000       0.00000000       1.64969697       0.00000000       0.00000000      -0.00023735
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3044480058269739 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3044479760246515 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00028264
 Ne       0.00000000       0.00000000       1.70848485       0.00000000       0.00000000      -0.00028264
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.304466105574794 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3044660757724716 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00033421
 Ne       0.00000000       0.00000000       1.76727273       0.00000000       0.00000000      -0.00033421
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3044874317494718 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3044874019471494 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00039248
 Ne       0.00000000       0.00000000       1.82606061       0.00000000       0.00000000      -0.00039248
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3045123898322422 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3045123600299198 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00045781
 Ne       0.00000000       0.00000000       1.88484848       0.00000000       0.00000000      -0.00045781
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3045414035193175 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30454137371699513 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00053050
 Ne       0.00000000       0.00000000       1.94363636       0.00000000       0.00000000      -0.00053050
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3045749111580875 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3045748813557651 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00061070
 Ne       0.00000000       0.00000000       2.00242424       0.00000000       0.00000000      -0.00061070
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.304613355847675 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30461332604535263 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00069845
 Ne       0.00000000       0.00000000       2.06121212       0.00000000       0.00000000      -0.00069845
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3046571767274254 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30465714692510304 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00079358
 Ne       0.00000000       0.00000000       2.12000000       0.00000000       0.00000000      -0.00079358
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.304706799077462 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3047067692751396 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00089572
 Ne       0.00000000       0.00000000       2.17878788       0.00000000       0.00000000      -0.00089572
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3047626172916423 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3047625874893199 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00100426
 Ne       0.00000000       0.00000000       2.23757576       0.00000000       0.00000000      -0.00100426
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30482498458213564 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30482495477981325 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00111832
 Ne       0.00000000       0.00000000       2.29636364       0.00000000       0.00000000      -0.00111832
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30489419001271306 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3048941606063685 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00123671
 Ne       0.00000000       0.00000000       2.35515152       0.00000000       0.00000000      -0.00123671
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3049704482033252 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3049704184010028 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00135797
 Ne       0.00000000       0.00000000       2.41393939       0.00000000       0.00000000      -0.00135797
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3050538759674137 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3050538461650913 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00148031
 Ne       0.00000000       0.00000000       2.47272727       0.00000000       0.00000000      -0.00148031
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30514447766073394 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3051444486503671 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00160169
 Ne       0.00000000       0.00000000       2.53151515       0.00000000       0.00000000      -0.00160169
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3052421329060444 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.305242103103722 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00171985
 Ne       0.00000000       0.00000000       2.59030303       0.00000000       0.00000000      -0.00171985
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3053465807539956 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30534655095167323 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00183236
 Ne       0.00000000       0.00000000       2.64909091       0.00000000       0.00000000      -0.00183236
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3054574137434638 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3054573843371192 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00193671
 Ne       0.00000000       0.00000000       2.70787879       0.00000000       0.00000000      -0.00193671
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3055740820593174 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.305574052256995 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00203045
 Ne       0.00000000       0.00000000       2.76666667       0.00000000       0.00000000      -0.00203045
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3056958933344282 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3056958635321058 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00211131
 Ne       0.00000000       0.00000000       2.82545455       0.00000000       0.00000000      -0.00211131
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30582202888475984 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30582199908243746 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00217728
 Ne       0.00000000       0.00000000       2.88424242       0.00000000       0.00000000      -0.00217728
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30595156647808947 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3059515366757671 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00222680
 Ne       0.00000000       0.00000000       2.94303030       0.00000000       0.00000000      -0.00222680
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3060835031027295 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3060834738943738 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00225881
 Ne       0.00000000       0.00000000       3.00181818       0.00000000       0.00000000      -0.00225881
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30621679337737123 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30621676357504884 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00227280
 Ne       0.00000000       0.00000000       3.06060606       0.00000000       0.00000000      -0.00227280
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3063503788534393 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3063503490511169 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00226890
 Ne       0.00000000       0.00000000       3.11939394       0.00000000       0.00000000      -0.00226890
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30648322424705804 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3064831950387023 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00224780
 Ne       0.00000000       0.00000000       3.17818182       0.00000000       0.00000000      -0.00224780
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30661435109716156 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3066143212948392 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00221068
 Ne       0.00000000       0.00000000       3.23696970       0.00000000       0.00000000      -0.00221068
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30674286469198186 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3067428348896595 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00215917
 Ne       0.00000000       0.00000000       3.29575758       0.00000000       0.00000000      -0.00215917
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30686797287799317 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3068679438676263 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00209520
 Ne       0.00000000       0.00000000       3.35454545       0.00000000       0.00000000      -0.00209520
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3069890068487444 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30698897704642203 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00202087
 Ne       0.00000000       0.00000000       3.41333333       0.00000000       0.00000000      -0.00202087
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30710541817502623 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30710538837270385 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00193833
 Ne       0.00000000       0.00000000       3.47212121       0.00000000       0.00000000      -0.00193833
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30721678801135405 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30721675890199274 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00184972
 Ne       0.00000000       0.00000000       3.53090909       0.00000000       0.00000000      -0.00184972
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30732281977037923 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30732278996805684 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00175702
 Ne       0.00000000       0.00000000       3.58969697       0.00000000       0.00000000      -0.00175702
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3074233270455673 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3074232977382171 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00166206
 Ne       0.00000000       0.00000000       3.64848485       0.00000000       0.00000000      -0.00166206
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3075182245037091 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3075181947013867 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00156641
 Ne       0.00000000       0.00000000       3.70727273       0.00000000       0.00000000      -0.00156641
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3076075128377657 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30760748303544333 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00147144
 Ne       0.00000000       0.00000000       3.76606061       0.00000000       0.00000000      -0.00147144
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30769126530362434 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3076912357982853 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00137826
 Ne       0.00000000       0.00000000       3.82484848       0.00000000       0.00000000      -0.00137826
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30776961465283187 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3077695848505095 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00128773
 Ne       0.00000000       0.00000000       3.88363636       0.00000000       0.00000000      -0.00128773
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30784273729348416 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30784270749116177 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00120055
 Ne       0.00000000       0.00000000       3.94242424       0.00000000       0.00000000      -0.00120055
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30791084477670405 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3079108153703594 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00111719
 Ne       0.00000000       0.00000000       4.00121212       0.00000000       0.00000000      -0.00111719
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3079741725607721 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3079741427584497 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00103797
 Ne       0.00000000       0.00000000       4.06000000       0.00000000       0.00000000      -0.00103797
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3080329703591686 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3080329405568462 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00096310
 Ne       0.00000000       0.00000000       4.11878788       0.00000000       0.00000000      -0.00096310
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3080874962504041 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3080874666460706 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00089265
 Ne       0.00000000       0.00000000       4.17757576       0.00000000       0.00000000      -0.00089265
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30813801068885593 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3081379812825113 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00082662
 Ne       0.00000000       0.00000000       4.23636364       0.00000000       0.00000000      -0.00082662
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3081847720995151 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3081847422971927 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00076493
 Ne       0.00000000       0.00000000       4.29515152       0.00000000       0.00000000      -0.00076493
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30822803088882317 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3082280010865008 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00070746
 Ne       0.00000000       0.00000000       4.35393939       0.00000000       0.00000000      -0.00070746
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30826803117707424 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3082680017707296 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00065404
 Ne       0.00000000       0.00000000       4.41272727       0.00000000       0.00000000      -0.00065404
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3083050065911518 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3083049767888294 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00060450
 Ne       0.00000000       0.00000000       4.47151515       0.00000000       0.00000000      -0.00060450
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30833917769067287 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3083391478883505 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00055862
 Ne       0.00000000       0.00000000       4.53030303       0.00000000       0.00000000      -0.00055862
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3083707541953631 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30837072464052684 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00051619
 Ne       0.00000000       0.00000000       4.58909091       0.00000000       0.00000000      -0.00051619
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30839993293092205 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30839990312859966 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00047700
 Ne       0.00000000       0.00000000       4.64787879       0.00000000       0.00000000      -0.00047700
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3084268975815371 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3084268677792147 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00044084
 Ne       0.00000000       0.00000000       4.70666667       0.00000000       0.00000000      -0.00044084
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3084518199273139 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3084517901249915 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00040749
 Ne       0.00000000       0.00000000       4.76545455       0.00000000       0.00000000      -0.00040749
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30847485947304737 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.308474829670725 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00037675
 Ne       0.00000000       0.00000000       4.82424242       0.00000000       0.00000000      -0.00037675
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.308496163670959 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3084961338686366 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00034843
 Ne       0.00000000       0.00000000       4.88303030       0.00000000       0.00000000      -0.00034843
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.308515869702597 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3085158399002746 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00032234
 Ne       0.00000000       0.00000000       4.94181818       0.00000000       0.00000000      -0.00032234
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30853410408285836 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.308534074280536 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00029833
 Ne       0.00000000       0.00000000       5.00060606       0.00000000       0.00000000      -0.00029833
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30855098295697236 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30855095315465 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00027621
 Ne       0.00000000       0.00000000       5.05939394       0.00000000       0.00000000      -0.00027621
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30856661390714896 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30856658410482657 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00025585
 Ne       0.00000000       0.00000000       5.11818182       0.00000000       0.00000000      -0.00025585
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30858109575459 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.308581066051262 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00023709
 Ne       0.00000000       0.00000000       5.17696970       0.00000000       0.00000000      -0.00023709
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3085945193761933 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3085944895738709 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00021982
 Ne       0.00000000       0.00000000       5.23575758       0.00000000       0.00000000      -0.00021982
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30860696823664796 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3086069384343256 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00020391
 Ne       0.00000000       0.00000000       5.29454545       0.00000000       0.00000000      -0.00020391
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3086185188957806 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3086184891553298 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00018925
 Ne       0.00000000       0.00000000       5.35333333       0.00000000       0.00000000      -0.00018925
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3086292419118799 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3086292121095575 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00017574
 Ne       0.00000000       0.00000000       5.41212121       0.00000000       0.00000000      -0.00017574
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30863920189119365 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30863917208887126 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00016328
 Ne       0.00000000       0.00000000       5.47090909       0.00000000       0.00000000      -0.00016328
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3086484581561412 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30864842841569035 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00015178
 Ne       0.00000000       0.00000000       5.52969697       0.00000000       0.00000000      -0.00015178
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3086570653145318 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3086570355122094 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00014118
 Ne       0.00000000       0.00000000       5.58848485       0.00000000       0.00000000      -0.00014118
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3086650732100669 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30866504340774453 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00013139
 Ne       0.00000000       0.00000000       5.64727273       0.00000000       0.00000000      -0.00013139
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3086725278132908 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30867249808521424 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00012234
 Ne       0.00000000       0.00000000       5.70606061       0.00000000       0.00000000      -0.00012234
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3086794714443273 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3086794416420049 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00011399
 Ne       0.00000000       0.00000000       5.76484848       0.00000000       0.00000000      -0.00011399
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30868594252539433 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30868591272307194 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00010626
 Ne       0.00000000       0.00000000       5.82363636       0.00000000       0.00000000      -0.00010626
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30869197679967264 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30869194703447317 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00009912
 Ne       0.00000000       0.00000000       5.88242424       0.00000000       0.00000000      -0.00009912
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30869760694770243 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.30869757714538004 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00009251
 Ne       0.00000000       0.00000000       5.94121212       0.00000000       0.00000000      -0.00009251
 2
-Properties=species:S:1:pos:R:3:forces:R:3 energy=0.3087028629524254 pbc="F F F"
+Properties=species:S:1:pos:R:3:forces:R:3 energy=0.308702833150103 pbc="F F F"
 Ne       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00008638
 Ne       0.00000000       0.00000000       6.00000000       0.00000000       0.00000000      -0.00008638
