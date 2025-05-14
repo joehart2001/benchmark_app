@@ -1,1 +1,7 @@
-!*
+/band_structure.npz
+/connections.json
+/dos.npz
+/labels.json
+/phonon_obj.yaml
+/qpoints.pkl
+/thermal_properties.json

@@ -453,7 +453,7 @@ stages:
                 /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/MACE-matpes-pbe-omat-ft.model
             module: mace.calculators
           model_name: mace_matpes_PBE_0_D3
-          n_materials: 1
+          n_materials: 100
           norm_strains:
           - -0.1
           - -0.05
@@ -468,16 +468,16 @@ stages:
     outs:
     - path: nodes/mace_matpes_PBE_0_D3/Elasticity/mae.csv
       hash: md5
-      md5: e12787c19a39d25de7a9320df8f057d6
+      md5: ed0b8d3074ccc58e1dcb83fe8eebd583
       size: 91
     - path: nodes/mace_matpes_PBE_0_D3/Elasticity/moduli_results.csv
       hash: md5
-      md5: 0391e396c7bd290884fb2fdf314aa663
-      size: 155
+      md5: a56892087825662f496887d81c104a11
+      size: 6803
     - path: nodes/mace_matpes_PBE_0_D3/Elasticity/node-meta.json
       hash: md5
-      md5: f449253c4b1ca766bbbc103f093abe8b
-      size: 155
+      md5: 9449745eb130ecba263fd92f7b6c9c03
+      size: 156
   mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Ag:
     cmd: zntrack run mlipx.nodes.structure_optimization.StructureOptimization --name
       mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Ag
@@ -1941,7 +1941,7 @@ stages:
                 /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/MACE-matpes-r2scan-omat-ft.model
             module: mace.calculators
           model_name: mace_matpes_r2scan_0_D3
-          n_materials: 1
+          n_materials: 100
           norm_strains:
           - -0.1
           - -0.05
@@ -1956,16 +1956,16 @@ stages:
     outs:
     - path: nodes/mace_matpes_r2scan_0_D3/Elasticity/mae.csv
       hash: md5
-      md5: 50a06acf9a7c9bb7c3dfa6dabcd71415
-      size: 93
+      md5: 98d48eefcf96768e2a8eca019af7a2ba
+      size: 95
     - path: nodes/mace_matpes_r2scan_0_D3/Elasticity/moduli_results.csv
       hash: md5
-      md5: cbc3b0496aeb863216330c7f3ea68442
-      size: 160
+      md5: 8aa4f68ee67315ec708c576b5baedc5e
+      size: 6815
     - path: nodes/mace_matpes_r2scan_0_D3/Elasticity/node-meta.json
       hash: md5
-      md5: c0aaf3d6e27807671e8634fbc7a43b37
-      size: 155
+      md5: 51843610ee9294981fa9de64a29f57c3
+      size: 156
   mace_matpes_r2scan_0_D3_structure-optimization_StructureOptimization-Ag:
     cmd: zntrack run mlipx.nodes.structure_optimization.StructureOptimization --name
       mace_matpes_r2scan_0_D3_structure-optimization_StructureOptimization-Ag
@@ -3391,7 +3391,7 @@ stages:
               model: medium
             module: mace.calculators
           model_name: mace_mp_0a_D3
-          n_materials: 1
+          n_materials: 100
           norm_strains:
           - -0.1
           - -0.05
@@ -3406,16 +3406,16 @@ stages:
     outs:
     - path: nodes/mace_mp_0a_D3/Elasticity/mae.csv
       hash: md5
-      md5: f3a6aa9b8246358850e86db954767bde
+      md5: 49c385fa4f315c350de4603f19b4a73c
       size: 84
     - path: nodes/mace_mp_0a_D3/Elasticity/moduli_results.csv
       hash: md5
-      md5: 0220c87b55fc69ca481a9e03866ee99d
-      size: 141
+      md5: bff59fa9becc996bcee0d15f59563bae
+      size: 6787
     - path: nodes/mace_mp_0a_D3/Elasticity/node-meta.json
       hash: md5
-      md5: 5156c2663098c2098e35c8b1e03fe0fa
-      size: 155
+      md5: f631c8748dd01f3e67073115a6e58f77
+      size: 156
   mace_mp_0a_D3_structure-optimization_StructureOptimization-Ag:
     cmd: zntrack run mlipx.nodes.structure_optimization.StructureOptimization --name
       mace_mp_0a_D3_structure-optimization_StructureOptimization-Ag
@@ -4704,7 +4704,7 @@ stages:
                 /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mp-0b3-medium.model
             module: mace.calculators
           model_name: mace_mp_0b3_D3
-          n_materials: 1
+          n_materials: 100
           norm_strains:
           - -0.1
           - -0.05
@@ -4719,16 +4719,16 @@ stages:
     outs:
     - path: nodes/mace_mp_0b3_D3/Elasticity/mae.csv
       hash: md5
-      md5: 2dbb93e8c643b35158053e5f6a33fd5d
+      md5: d4e14537c7895d5915b103830e411f86
       size: 84
     - path: nodes/mace_mp_0b3_D3/Elasticity/moduli_results.csv
       hash: md5
-      md5: 6d781aa5eecab4c8f7c62e9d5d0ac836
-      size: 141
+      md5: b582d69b42e12b96201241649c2c5960
+      size: 6789
     - path: nodes/mace_mp_0b3_D3/Elasticity/node-meta.json
       hash: md5
-      md5: be1081a3bf8a0f4177f2526aebe8ade1
-      size: 155
+      md5: 27607455fb2d62576a00cfe22696ca6a
+      size: 156
   mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ag:
     cmd: zntrack run mlipx.nodes.structure_optimization.StructureOptimization --name
       mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ag
@@ -6051,7 +6051,7 @@ stages:
                 /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-mpa-0-medium.model
             module: mace.calculators
           model_name: mace_mpa_0_D3
-          n_materials: 1
+          n_materials: 100
           norm_strains:
           - -0.1
           - -0.05
@@ -6066,16 +6066,16 @@ stages:
     outs:
     - path: nodes/mace_mpa_0_D3/Elasticity/mae.csv
       hash: md5
-      md5: cef7a3c92554c9f90c28e1c74250bad2
-      size: 85
+      md5: e25c644bc447306c78885741d473c7ab
+      size: 84
     - path: nodes/mace_mpa_0_D3/Elasticity/moduli_results.csv
       hash: md5
-      md5: 6ec5456c863f98a743aa5e117d426fb8
-      size: 141
+      md5: 41d58707097ccf53b02a4011ac48abae
+      size: 6788
     - path: nodes/mace_mpa_0_D3/Elasticity/node-meta.json
       hash: md5
-      md5: 46cade8b82cf3c7bbac96250013fc887
-      size: 155
+      md5: 28d9d3d19fe913182a837ed18a541c44
+      size: 156
   mace_mpa_0_D3_structure-optimization_StructureOptimization-Ag:
     cmd: zntrack run mlipx.nodes.structure_optimization.StructureOptimization --name
       mace_mpa_0_D3_structure-optimization_StructureOptimization-Ag
@@ -7388,7 +7388,7 @@ stages:
                 /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
             module: mace.calculators
           model_name: mace_omat_0_D3
-          n_materials: 1
+          n_materials: 100
           norm_strains:
           - -0.1
           - -0.05
@@ -7403,16 +7403,16 @@ stages:
     outs:
     - path: nodes/mace_omat_0_D3/Elasticity/mae.csv
       hash: md5
-      md5: 6fccf000c0365de55a4b15266bc68000
-      size: 86
+      md5: 6668a5eb107cedbf7bee651be6dd9eb4
+      size: 85
     - path: nodes/mace_omat_0_D3/Elasticity/moduli_results.csv
       hash: md5
-      md5: 28d97d01841d89c8992ad56a34d8e1c7
-      size: 142
+      md5: e03cc5b963c4f9476acbfdc4d6ece75a
+      size: 6805
     - path: nodes/mace_omat_0_D3/Elasticity/node-meta.json
       hash: md5
-      md5: 1cbcf3dd5327799c933b203a7e943e46
-      size: 155
+      md5: 88eccc4cede398f6b232da76dec5aeef
+      size: 156
   mace_omat_0_D3_structure-optimization_StructureOptimization-Ag:
     cmd: zntrack run mlipx.nodes.structure_optimization.StructureOptimization --name
       mace_omat_0_D3_structure-optimization_StructureOptimization-Ag
@@ -8725,12 +8725,12 @@ stages:
     deps:
     - path: nodes/mace_matpes_PBE_0_D3/Elasticity/mae.csv
       hash: md5
-      md5: e12787c19a39d25de7a9320df8f057d6
+      md5: ed0b8d3074ccc58e1dcb83fe8eebd583
       size: 91
     - path: nodes/mace_matpes_PBE_0_D3/Elasticity/moduli_results.csv
       hash: md5
-      md5: 0391e396c7bd290884fb2fdf314aa663
-      size: 155
+      md5: a56892087825662f496887d81c104a11
+      size: 6803
     - path: 
         nodes/mace_matpes_PBE_0_D3/lattice-constant-pred/LatticeConst-Ag/lattice_const.json
       hash: md5
@@ -8883,12 +8883,12 @@ stages:
       size: 362
     - path: nodes/mace_matpes_r2scan_0_D3/Elasticity/mae.csv
       hash: md5
-      md5: 50a06acf9a7c9bb7c3dfa6dabcd71415
-      size: 93
+      md5: 98d48eefcf96768e2a8eca019af7a2ba
+      size: 95
     - path: nodes/mace_matpes_r2scan_0_D3/Elasticity/moduli_results.csv
       hash: md5
-      md5: cbc3b0496aeb863216330c7f3ea68442
-      size: 160
+      md5: 8aa4f68ee67315ec708c576b5baedc5e
+      size: 6815
     - path: 
         nodes/mace_matpes_r2scan_0_D3/lattice-constant-pred/LatticeConst-Ag/lattice_const.json
       hash: md5
@@ -9041,12 +9041,12 @@ stages:
       size: 366
     - path: nodes/mace_mp_0a_D3/Elasticity/mae.csv
       hash: md5
-      md5: f3a6aa9b8246358850e86db954767bde
+      md5: 49c385fa4f315c350de4603f19b4a73c
       size: 84
     - path: nodes/mace_mp_0a_D3/Elasticity/moduli_results.csv
       hash: md5
-      md5: 0220c87b55fc69ca481a9e03866ee99d
-      size: 141
+      md5: bff59fa9becc996bcee0d15f59563bae
+      size: 6787
     - path: nodes/mace_mp_0a_D3/lattice-constant-pred/LatticeConst-Ag/lattice_const.json
       hash: md5
       md5: d956abc51153f179b9e86293a5a05c94
@@ -9173,12 +9173,12 @@ stages:
       size: 367
     - path: nodes/mace_mp_0b3_D3/Elasticity/mae.csv
       hash: md5
-      md5: 2dbb93e8c643b35158053e5f6a33fd5d
+      md5: d4e14537c7895d5915b103830e411f86
       size: 84
     - path: nodes/mace_mp_0b3_D3/Elasticity/moduli_results.csv
       hash: md5
-      md5: 6d781aa5eecab4c8f7c62e9d5d0ac836
-      size: 141
+      md5: b582d69b42e12b96201241649c2c5960
+      size: 6789
     - path: nodes/mace_mp_0b3_D3/lattice-constant-pred/LatticeConst-Ag/lattice_const.json
       hash: md5
       md5: 2460e7c3646b631c1c70584d2bef08ef
@@ -9307,12 +9307,12 @@ stages:
       size: 362
     - path: nodes/mace_mpa_0_D3/Elasticity/mae.csv
       hash: md5
-      md5: cef7a3c92554c9f90c28e1c74250bad2
-      size: 85
+      md5: e25c644bc447306c78885741d473c7ab
+      size: 84
     - path: nodes/mace_mpa_0_D3/Elasticity/moduli_results.csv
       hash: md5
-      md5: 6ec5456c863f98a743aa5e117d426fb8
-      size: 141
+      md5: 41d58707097ccf53b02a4011ac48abae
+      size: 6788
     - path: nodes/mace_mpa_0_D3/lattice-constant-pred/LatticeConst-Ag/lattice_const.json
       hash: md5
       md5: 2460e7c3646b631c1c70584d2bef08ef
@@ -9439,12 +9439,12 @@ stages:
       size: 362
     - path: nodes/mace_omat_0_D3/Elasticity/mae.csv
       hash: md5
-      md5: 6fccf000c0365de55a4b15266bc68000
-      size: 86
+      md5: 6668a5eb107cedbf7bee651be6dd9eb4
+      size: 85
     - path: nodes/mace_omat_0_D3/Elasticity/moduli_results.csv
       hash: md5
-      md5: 28d97d01841d89c8992ad56a34d8e1c7
-      size: 142
+      md5: e03cc5b963c4f9476acbfdc4d6ece75a
+      size: 6805
     - path: nodes/mace_omat_0_D3/lattice-constant-pred/LatticeConst-Ag/lattice_const.json
       hash: md5
       md5: 128f4ea668b75eea9dd7758d1eb2096f
@@ -9608,8 +9608,8 @@ stages:
     outs:
     - path: nodes/bulk-crystal-benchmark/BulkCrystalBenchmark/node-meta.json
       hash: md5
-      md5: 266cf25762d2da8101fedf7fb5ee31fb
-      size: 154
+      md5: cbaf1e3cf13202893d3a2e13af1d16ed
+      size: 153
   mace_matpes_PBE_0_D3_GMTKN55Benchmark:
     cmd: zntrack run mlipx.nodes.GMTKN55_benchmark_node.GMTKN55Benchmark --name mace_matpes_PBE_0_D3_GMTKN55Benchmark
     params:
@@ -9859,27 +9859,6 @@ stages:
       hash: md5
       md5: b46f9e60a04b4b2f574f60faee1ef922
       size: 21947
-    - path: 
-        nodes/mace_matpes_PBE_0_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
-      hash: md5
-      md5: 74b7b0aaef68a56232285da6e2140e39
-      size: 19375300
-    - path: nodes/mace_matpes_PBE_0_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
-      hash: md5
-      md5: 0df68fc17d7860cecaadca4e22022787.dir
-      size: 26
-      nfiles: 1
-    - path: 
-        nodes/mace_matpes_PBE_0_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
-      hash: md5
-      md5: 4479972cf06fd3ddbcbf529b664def32
-      size: 174039
-    - path: 
-        nodes/mace_matpes_PBE_0_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
-      hash: md5
-      md5: 5e041544f0ef87f0a73e6df97a425840.dir
-      size: 2601707
-      nfiles: 89
     - path: nodes/mace_matpes_r2scan_0_D3/GMTKN55Benchmark/benchmark.csv
       hash: md5
       md5: 3ff7a9a0275d8b4f701d52ee3f73454d
@@ -9892,28 +9871,6 @@ stages:
       hash: md5
       md5: b46f9e60a04b4b2f574f60faee1ef922
       size: 21947
-    - path: 
-        nodes/mace_matpes_r2scan_0_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
-      hash: md5
-      md5: 7a614e8112428c8cdfc538a046943456
-      size: 19375300
-    - path: 
-        nodes/mace_matpes_r2scan_0_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
-      hash: md5
-      md5: 0df68fc17d7860cecaadca4e22022787.dir
-      size: 26
-      nfiles: 1
-    - path: 
-        nodes/mace_matpes_r2scan_0_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
-      hash: md5
-      md5: d4b4b18bbe693f75813e7bc36dcbf507
-      size: 172792
-    - path: 
-        nodes/mace_matpes_r2scan_0_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
-      hash: md5
-      md5: 96b6d67888559f4420a531deca8c641d.dir
-      size: 2600859
-      nfiles: 89
     - path: nodes/mace_mp_0a_D3/GMTKN55Benchmark/benchmark.csv
       hash: md5
       md5: ce92233ba7de2e37bc58c9fcd64b43b3
@@ -9926,24 +9883,6 @@ stages:
       hash: md5
       md5: b46f9e60a04b4b2f574f60faee1ef922
       size: 21947
-    - path: nodes/mace_mp_0a_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
-      hash: md5
-      md5: 7fead7cab94f57f6f593d76d44b12ac7
-      size: 19375300
-    - path: nodes/mace_mp_0a_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
-      hash: md5
-      md5: 0df68fc17d7860cecaadca4e22022787.dir
-      size: 26
-      nfiles: 1
-    - path: nodes/mace_mp_0a_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
-      hash: md5
-      md5: b8bbbd31a0c64a2748a64ba7efab5931
-      size: 173559
-    - path: nodes/mace_mp_0a_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
-      hash: md5
-      md5: 38940baefda7b93f1a90606feb7a4d48.dir
-      size: 2602350
-      nfiles: 89
     - path: nodes/mace_mp_0b3_D3/GMTKN55Benchmark/benchmark.csv
       hash: md5
       md5: db3feef568797f8fe0cb305334a39798
@@ -9956,24 +9895,6 @@ stages:
       hash: md5
       md5: b46f9e60a04b4b2f574f60faee1ef922
       size: 21947
-    - path: nodes/mace_mp_0b3_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
-      hash: md5
-      md5: 1b40e1f7b5fa453edf9181f05a2aa48a
-      size: 19375300
-    - path: nodes/mace_mp_0b3_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
-      hash: md5
-      md5: 0df68fc17d7860cecaadca4e22022787.dir
-      size: 26
-      nfiles: 1
-    - path: nodes/mace_mp_0b3_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
-      hash: md5
-      md5: fea24aa0dc1b18950fbde0174a863560
-      size: 174544
-    - path: nodes/mace_mp_0b3_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
-      hash: md5
-      md5: e3cb43f3d2b9dae5841ec843653d540d.dir
-      size: 2602214
-      nfiles: 89
     - path: nodes/mace_mpa_0_D3/GMTKN55Benchmark/benchmark.csv
       hash: md5
       md5: 47f1f3f301b47469b56db545c66362a2
@@ -9986,24 +9907,6 @@ stages:
       hash: md5
       md5: b46f9e60a04b4b2f574f60faee1ef922
       size: 21947
-    - path: nodes/mace_mpa_0_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
-      hash: md5
-      md5: 4c8fc80e1dff1fe9c38159500e6f9d20
-      size: 19375300
-    - path: nodes/mace_mpa_0_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
-      hash: md5
-      md5: 0df68fc17d7860cecaadca4e22022787.dir
-      size: 26
-      nfiles: 1
-    - path: nodes/mace_mpa_0_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
-      hash: md5
-      md5: e81846a9167def59b2918d3c15d27031
-      size: 173749
-    - path: nodes/mace_mpa_0_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
-      hash: md5
-      md5: a5435d76957c836b1af427be76561e86.dir
-      size: 2601417
-      nfiles: 89
     - path: nodes/mace_omat_0_D3/GMTKN55Benchmark/benchmark.csv
       hash: md5
       md5: 7202fa185e04c5ca6c779cadf76203e7
@@ -10016,24 +9919,6 @@ stages:
       hash: md5
       md5: b46f9e60a04b4b2f574f60faee1ef922
       size: 21947
-    - path: nodes/mace_omat_0_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
-      hash: md5
-      md5: 48a1c8bc3e54a372cb089afabb0d017f
-      size: 19375300
-    - path: nodes/mace_omat_0_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
-      hash: md5
-      md5: 0df68fc17d7860cecaadca4e22022787.dir
-      size: 26
-      nfiles: 1
-    - path: nodes/mace_omat_0_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
-      hash: md5
-      md5: 743c531b078164d227f71514c8d49575
-      size: 173877
-    - path: nodes/mace_omat_0_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
-      hash: md5
-      md5: 9c133efff6dc483dc60ae5beaa9947e7.dir
-      size: 2601597
-      nfiles: 89
     outs:
     - path: nodes/mol-benchmark/MolecularBenchmark/node-meta.json
       hash: md5
@@ -10044,8 +9929,8 @@ stages:
     deps:
     - path: nodes/bulk-crystal-benchmark/BulkCrystalBenchmark/node-meta.json
       hash: md5
-      md5: 266cf25762d2da8101fedf7fb5ee31fb
-      size: 154
+      md5: cbaf1e3cf13202893d3a2e13af1d16ed
+      size: 153
     - path: nodes/mol-benchmark/MolecularBenchmark/node-meta.json
       hash: md5
       md5: f3898447aff7a17664e0ab5d86e1f9e9
@@ -10053,7 +9938,7 @@ stages:
     outs:
     - path: nodes/full-benchmark/FullBenchmark/node-meta.json
       hash: md5
-      md5: 09fd7082d0101a51ec8719605673c1ab
+      md5: 173622d7340789b0650fe55c84cc8614
       size: 154
   lattice-constant-ref-data_lattice-constant-ref-types_Lattice-ref-types:
     cmd: zntrack run mlipx.nodes.ref_to_node.RefToNode --name lattice-constant-ref-data_lattice-constant-ref-types_Lattice-ref-types
@@ -10753,7 +10638,7 @@ stages:
           - Og
           eq_distance:
           max_distance: 6.0
-          min_distance: 0.1
+          min_distance: 0.18
           model:
             _cls: mlipx.nodes.generic_ase.GenericASECalculator
             class_name: mace_mp
@@ -10768,7 +10653,7 @@ stages:
     - path: 
         nodes/mace_matpes_PBE_0_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
       hash: md5
-      md5: 74b7b0aaef68a56232285da6e2140e39
+      md5: bb2bb5fb7fa674193d1977a51e2116fc
       size: 19375300
     - path: nodes/mace_matpes_PBE_0_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
       hash: md5
@@ -10778,18 +10663,18 @@ stages:
     - path: 
         nodes/mace_matpes_PBE_0_D3/homonuclear-diatomics/HomonuclearDiatomics/node-meta.json
       hash: md5
-      md5: d5190178034bdb360f0c362e94d1c2c7
+      md5: 5134f8b19150f581606f3a8771f5be8d
       size: 156
     - path: 
         nodes/mace_matpes_PBE_0_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
       hash: md5
-      md5: 4479972cf06fd3ddbcbf529b664def32
-      size: 174039
+      md5: 87613e2218cea17ec72509d74a3bd562
+      size: 174074
     - path: 
         nodes/mace_matpes_PBE_0_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
       hash: md5
-      md5: 5e041544f0ef87f0a73e6df97a425840.dir
-      size: 2601707
+      md5: ef12bd9cfa65f13227b227aa1f028f75.dir
+      size: 2601705
       nfiles: 89
   mace_matpes_r2scan_0_D3_homonuclear-diatomics_HomonuclearDiatomics:
     cmd: zntrack run mlipx.nodes.diatomics.HomonuclearDiatomics --name mace_matpes_r2scan_0_D3_homonuclear-diatomics_HomonuclearDiatomics
@@ -10918,7 +10803,7 @@ stages:
           - Og
           eq_distance:
           max_distance: 6.0
-          min_distance: 0.1
+          min_distance: 0.18
           model:
             _cls: mlipx.nodes.generic_ase.GenericASECalculator
             class_name: mace_mp
@@ -10934,7 +10819,7 @@ stages:
     - path: 
         nodes/mace_matpes_r2scan_0_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
       hash: md5
-      md5: 7a614e8112428c8cdfc538a046943456
+      md5: 1b583e93e64718a721669e935a348578
       size: 19375300
     - path: 
         nodes/mace_matpes_r2scan_0_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
@@ -10945,18 +10830,18 @@ stages:
     - path: 
         nodes/mace_matpes_r2scan_0_D3/homonuclear-diatomics/HomonuclearDiatomics/node-meta.json
       hash: md5
-      md5: 8f1d7241ddbd2b4cadaf706a0e855c65
+      md5: 8d76b57a668fb625ac893ca0db07d66a
       size: 156
     - path: 
         nodes/mace_matpes_r2scan_0_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
       hash: md5
-      md5: d4b4b18bbe693f75813e7bc36dcbf507
-      size: 172792
+      md5: e1351b7242e0c87670d41f3dedfa7d5b
+      size: 172802
     - path: 
         nodes/mace_matpes_r2scan_0_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
       hash: md5
-      md5: 96b6d67888559f4420a531deca8c641d.dir
-      size: 2600859
+      md5: 3fd5ee579e53096727ca934952b88436.dir
+      size: 2600844
       nfiles: 89
   mace_mp_0a_D3_homonuclear-diatomics_HomonuclearDiatomics:
     cmd: zntrack run mlipx.nodes.diatomics.HomonuclearDiatomics --name mace_mp_0a_D3_homonuclear-diatomics_HomonuclearDiatomics
@@ -11085,7 +10970,7 @@ stages:
           - Og
           eq_distance:
           max_distance: 6.0
-          min_distance: 0.1
+          min_distance: 0.18
           model:
             _cls: mlipx.nodes.generic_ase.GenericASECalculator
             class_name: mace_mp
@@ -11098,7 +10983,7 @@ stages:
     outs:
     - path: nodes/mace_mp_0a_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
       hash: md5
-      md5: 7fead7cab94f57f6f593d76d44b12ac7
+      md5: 4381b010d2ba0d0516928ff48ffc5ca2
       size: 19375300
     - path: nodes/mace_mp_0a_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
       hash: md5
@@ -11107,16 +10992,16 @@ stages:
       nfiles: 1
     - path: nodes/mace_mp_0a_D3/homonuclear-diatomics/HomonuclearDiatomics/node-meta.json
       hash: md5
-      md5: 1c74d74dd0bdc3ba4f99ae12bc4b9ea4
+      md5: 4625e2dd8435177aa6705685ea3a5cfd
       size: 156
     - path: nodes/mace_mp_0a_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
       hash: md5
-      md5: b8bbbd31a0c64a2748a64ba7efab5931
-      size: 173559
+      md5: 24c22ab92a16e0643f9560d795414619
+      size: 173646
     - path: nodes/mace_mp_0a_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
       hash: md5
-      md5: 38940baefda7b93f1a90606feb7a4d48.dir
-      size: 2602350
+      md5: 26ee9aa393b14881263ca9f607a45bbb.dir
+      size: 2602157
       nfiles: 89
   mace_mp_0b3_D3_homonuclear-diatomics_HomonuclearDiatomics:
     cmd: zntrack run mlipx.nodes.diatomics.HomonuclearDiatomics --name mace_mp_0b3_D3_homonuclear-diatomics_HomonuclearDiatomics
@@ -11245,7 +11130,7 @@ stages:
           - Og
           eq_distance:
           max_distance: 6.0
-          min_distance: 0.1
+          min_distance: 0.18
           model:
             _cls: mlipx.nodes.generic_ase.GenericASECalculator
             class_name: mace_mp
@@ -11259,7 +11144,7 @@ stages:
     outs:
     - path: nodes/mace_mp_0b3_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
       hash: md5
-      md5: 1b40e1f7b5fa453edf9181f05a2aa48a
+      md5: d13072e489c7fd6554e05e1f9bcda59c
       size: 19375300
     - path: nodes/mace_mp_0b3_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
       hash: md5
@@ -11268,16 +11153,16 @@ stages:
       nfiles: 1
     - path: nodes/mace_mp_0b3_D3/homonuclear-diatomics/HomonuclearDiatomics/node-meta.json
       hash: md5
-      md5: 3694f7909d02f083a78a4751424f3b54
+      md5: 734328b65c8981a48c6980bbce394974
       size: 156
     - path: nodes/mace_mp_0b3_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
       hash: md5
-      md5: fea24aa0dc1b18950fbde0174a863560
-      size: 174544
+      md5: f13b7311669651e578210a500b9edbd3
+      size: 174651
     - path: nodes/mace_mp_0b3_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
       hash: md5
-      md5: e3cb43f3d2b9dae5841ec843653d540d.dir
-      size: 2602214
+      md5: 2d846a4be42850b7ecb36ed2ff13b3b4.dir
+      size: 2602282
       nfiles: 89
   mace_mpa_0_D3_homonuclear-diatomics_HomonuclearDiatomics:
     cmd: zntrack run mlipx.nodes.diatomics.HomonuclearDiatomics --name mace_mpa_0_D3_homonuclear-diatomics_HomonuclearDiatomics
@@ -11406,7 +11291,7 @@ stages:
           - Og
           eq_distance:
           max_distance: 6.0
-          min_distance: 0.1
+          min_distance: 0.18
           model:
             _cls: mlipx.nodes.generic_ase.GenericASECalculator
             class_name: mace_mp
@@ -11420,7 +11305,7 @@ stages:
     outs:
     - path: nodes/mace_mpa_0_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
       hash: md5
-      md5: 4c8fc80e1dff1fe9c38159500e6f9d20
+      md5: d43653c2d31a98e985faf8c3b48afe0f
       size: 19375300
     - path: nodes/mace_mpa_0_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
       hash: md5
@@ -11429,16 +11314,16 @@ stages:
       nfiles: 1
     - path: nodes/mace_mpa_0_D3/homonuclear-diatomics/HomonuclearDiatomics/node-meta.json
       hash: md5
-      md5: 9c81577c67ef1aa9397a657b58595d18
+      md5: 1e587ba595fd8a9f8255f3b277006d4f
       size: 156
     - path: nodes/mace_mpa_0_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
       hash: md5
-      md5: e81846a9167def59b2918d3c15d27031
-      size: 173749
+      md5: 540077a47ebc253a6b06fe5de55df0a7
+      size: 173944
     - path: nodes/mace_mpa_0_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
       hash: md5
-      md5: a5435d76957c836b1af427be76561e86.dir
-      size: 2601417
+      md5: 567155de17a37882613a5b222a87abba.dir
+      size: 2601575
       nfiles: 89
   mace_omat_0_D3_homonuclear-diatomics_HomonuclearDiatomics:
     cmd: zntrack run mlipx.nodes.diatomics.HomonuclearDiatomics --name mace_omat_0_D3_homonuclear-diatomics_HomonuclearDiatomics
@@ -11567,7 +11452,7 @@ stages:
           - Og
           eq_distance:
           max_distance: 6.0
-          min_distance: 0.1
+          min_distance: 0.18
           model:
             _cls: mlipx.nodes.generic_ase.GenericASECalculator
             class_name: mace_mp
@@ -11581,7 +11466,7 @@ stages:
     outs:
     - path: nodes/mace_omat_0_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
       hash: md5
-      md5: 48a1c8bc3e54a372cb089afabb0d017f
+      md5: c0fff345d3ab4dfef0d4e2f10ea3ba4c
       size: 19375300
     - path: nodes/mace_omat_0_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
       hash: md5
@@ -11590,14 +11475,45 @@ stages:
       nfiles: 1
     - path: nodes/mace_omat_0_D3/homonuclear-diatomics/HomonuclearDiatomics/node-meta.json
       hash: md5
-      md5: e17e9c8037186264427218b28843a845
+      md5: 594ae626bd6210549c5f70c79bdf5671
       size: 156
     - path: nodes/mace_omat_0_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
       hash: md5
-      md5: 743c531b078164d227f71514c8d49575
-      size: 173877
+      md5: 72f3bde68a1921634bdaa73586cbe216
+      size: 173839
     - path: nodes/mace_omat_0_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
       hash: md5
-      md5: 9c133efff6dc483dc60ae5beaa9947e7.dir
-      size: 2601597
+      md5: eb4b8abe926f45bd43452c2968e11e54.dir
+      size: 2601522
       nfiles: 89
+  ref_lattice-constant_Lattice-ref-types:
+    cmd: zntrack run mlipx.nodes.ref_to_node.RefToNode --name ref_lattice-constant_Lattice-ref-types
+    params:
+      params.yaml:
+        ref_lattice-constant_Lattice-ref-types:
+          ref_path: 
+            /Users/joehart/.cache/my_benchmark/lattice_constants/lattice_constants_ref_types.json
+    outs:
+    - path: nodes/ref/lattice-constant/Lattice-ref-types/node-meta.json
+      hash: md5
+      md5: 421b02a0acd0bd113d74d4ec32526ebe
+      size: 154
+    - path: nodes/ref/lattice-constant/Lattice-ref-types/ref.json
+      hash: md5
+      md5: f1f7cadaaaf2a21014316f0d35a459ec
+      size: 354
+  ref_lattice-constant_LatticeConst-ref:
+    cmd: zntrack run mlipx.nodes.ref_to_node.RefToNode --name ref_lattice-constant_LatticeConst-ref
+    params:
+      params.yaml:
+        ref_lattice-constant_LatticeConst-ref:
+          ref_path: /Users/joehart/.cache/my_benchmark/lattice_constants/lattice_constants_ref.json
+    outs:
+    - path: nodes/ref/lattice-constant/LatticeConst-ref/node-meta.json
+      hash: md5
+      md5: ca8db6641827bfac5efd4e264c60434d
+      size: 154
+    - path: nodes/ref/lattice-constant/LatticeConst-ref/ref.json
+      hash: md5
+      md5: 5bbc70050796e515ea190318ed924406
+      size: 325

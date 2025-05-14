@@ -1,1 +1,3 @@
-!*
+/benchmark.csv
+/predicted_values.json
+/reference_values.json

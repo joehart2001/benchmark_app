@@ -420,24 +420,6 @@ stages:
     metrics:
     - nodes/full-benchmark/FullBenchmark/node-meta.json:
         cache: false
-  ref_lattice-constant_Lattice-ref-types:
-    cmd: zntrack run mlipx.nodes.ref_to_node.RefToNode --name ref_lattice-constant_Lattice-ref-types
-    metrics:
-    - nodes/ref/lattice-constant/Lattice-ref-types/node-meta.json:
-        cache: false
-    outs:
-    - nodes/ref/lattice-constant/Lattice-ref-types/ref.json
-    params:
-    - ref_lattice-constant_Lattice-ref-types
-  ref_lattice-constant_LatticeConst-ref:
-    cmd: zntrack run mlipx.nodes.ref_to_node.RefToNode --name ref_lattice-constant_LatticeConst-ref
-    metrics:
-    - nodes/ref/lattice-constant/LatticeConst-ref/node-meta.json:
-        cache: false
-    outs:
-    - nodes/ref/lattice-constant/LatticeConst-ref/ref.json
-    params:
-    - ref_lattice-constant_LatticeConst-ref
   mace_matpes_PBE_0_D3_DMCICE13Benchmark:
     cmd: zntrack run mlipx.nodes.DMC_ICE_13_benchmark.DMCICE13Benchmark --name mace_matpes_PBE_0_D3_DMCICE13Benchmark
     metrics:
@@ -3870,45 +3852,21 @@ stages:
     - nodes/mace_matpes_PBE_0_D3/GMTKN55Benchmark/benchmark.csv
     - nodes/mace_matpes_PBE_0_D3/GMTKN55Benchmark/predicted_values.json
     - nodes/mace_matpes_PBE_0_D3/GMTKN55Benchmark/reference_values.json
-    - nodes/mace_matpes_PBE_0_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
-    - nodes/mace_matpes_PBE_0_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
-    - nodes/mace_matpes_PBE_0_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
-    - nodes/mace_matpes_PBE_0_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
     - nodes/mace_matpes_r2scan_0_D3/GMTKN55Benchmark/benchmark.csv
     - nodes/mace_matpes_r2scan_0_D3/GMTKN55Benchmark/predicted_values.json
     - nodes/mace_matpes_r2scan_0_D3/GMTKN55Benchmark/reference_values.json
-    - nodes/mace_matpes_r2scan_0_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
-    - nodes/mace_matpes_r2scan_0_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
-    - nodes/mace_matpes_r2scan_0_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
-    - nodes/mace_matpes_r2scan_0_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
     - nodes/mace_mp_0a_D3/GMTKN55Benchmark/benchmark.csv
     - nodes/mace_mp_0a_D3/GMTKN55Benchmark/predicted_values.json
     - nodes/mace_mp_0a_D3/GMTKN55Benchmark/reference_values.json
-    - nodes/mace_mp_0a_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
-    - nodes/mace_mp_0a_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
-    - nodes/mace_mp_0a_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
-    - nodes/mace_mp_0a_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
     - nodes/mace_mp_0b3_D3/GMTKN55Benchmark/benchmark.csv
     - nodes/mace_mp_0b3_D3/GMTKN55Benchmark/predicted_values.json
     - nodes/mace_mp_0b3_D3/GMTKN55Benchmark/reference_values.json
-    - nodes/mace_mp_0b3_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
-    - nodes/mace_mp_0b3_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
-    - nodes/mace_mp_0b3_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
-    - nodes/mace_mp_0b3_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
     - nodes/mace_mpa_0_D3/GMTKN55Benchmark/benchmark.csv
     - nodes/mace_mpa_0_D3/GMTKN55Benchmark/predicted_values.json
     - nodes/mace_mpa_0_D3/GMTKN55Benchmark/reference_values.json
-    - nodes/mace_mpa_0_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
-    - nodes/mace_mpa_0_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
-    - nodes/mace_mpa_0_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
-    - nodes/mace_mpa_0_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
     - nodes/mace_omat_0_D3/GMTKN55Benchmark/benchmark.csv
     - nodes/mace_omat_0_D3/GMTKN55Benchmark/predicted_values.json
     - nodes/mace_omat_0_D3/GMTKN55Benchmark/reference_values.json
-    - nodes/mace_omat_0_D3/homonuclear-diatomics/HomonuclearDiatomics/frames.json
-    - nodes/mace_omat_0_D3/homonuclear-diatomics/HomonuclearDiatomics/model_outs
-    - nodes/mace_omat_0_D3/homonuclear-diatomics/HomonuclearDiatomics/results.csv
-    - nodes/mace_omat_0_D3/homonuclear-diatomics/HomonuclearDiatomics/trajectories
     metrics:
     - nodes/mol-benchmark/MolecularBenchmark/node-meta.json:
         cache: false
@@ -3983,3 +3941,21 @@ stages:
     - nodes/phonon-reference/phonons-ref-to-node/PhononRefToNode_mp-1000/thermal_properties.json
     params:
     - phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-1000
+  ref_lattice-constant_Lattice-ref-types:
+    cmd: zntrack run mlipx.nodes.ref_to_node.RefToNode --name ref_lattice-constant_Lattice-ref-types
+    metrics:
+    - nodes/ref/lattice-constant/Lattice-ref-types/node-meta.json:
+        cache: false
+    outs:
+    - nodes/ref/lattice-constant/Lattice-ref-types/ref.json
+    params:
+    - ref_lattice-constant_Lattice-ref-types
+  ref_lattice-constant_LatticeConst-ref:
+    cmd: zntrack run mlipx.nodes.ref_to_node.RefToNode --name ref_lattice-constant_LatticeConst-ref
+    metrics:
+    - nodes/ref/lattice-constant/LatticeConst-ref/node-meta.json:
+        cache: false
+    outs:
+    - nodes/ref/lattice-constant/LatticeConst-ref/ref.json
+    params:
+    - ref_lattice-constant_LatticeConst-ref
