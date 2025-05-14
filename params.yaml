@@ -331,34 +331,19 @@ mace_matpes_PBE_0_D3_homonuclear-diatomics_HomonuclearDiatomics:
   n_points: 100
 mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-1000:
   node_idx: 5
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
   node_idx: 11
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
   node_idx: 17
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
   node_idx: 23
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
   node_idx: 29
-  total_no_nodes: 60
-mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409:
-  node_idx: 35
-  total_no_nodes: 60
-mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476:
-  node_idx: 41
-  total_no_nodes: 60
-mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509:
-  node_idx: 47
-  total_no_nodes: 60
-mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556:
-  node_idx: 53
-  total_no_nodes: 60
-mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694:
-  node_idx: 59
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-1000:
   N_q_mesh: 20
   delta: 0.05
@@ -440,106 +425,6 @@ mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10299:
   - 300
   - 600
 mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10349:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10409:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10476:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10509:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10556:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10694:
   N_q_mesh: 20
   delta: 0.05
   fmax: 0.0001
@@ -954,34 +839,19 @@ mace_matpes_r2scan_0_D3_homonuclear-diatomics_HomonuclearDiatomics:
   n_points: 100
 mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-1000:
   node_idx: 6
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
   node_idx: 12
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
   node_idx: 18
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
   node_idx: 24
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
   node_idx: 30
-  total_no_nodes: 60
-mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409:
-  node_idx: 36
-  total_no_nodes: 60
-mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476:
-  node_idx: 42
-  total_no_nodes: 60
-mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509:
-  node_idx: 48
-  total_no_nodes: 60
-mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556:
-  node_idx: 54
-  total_no_nodes: 60
-mace_matpes_r2scan_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694:
-  node_idx: 60
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-1000:
   N_q_mesh: 20
   delta: 0.05
@@ -1067,111 +937,6 @@ mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10299:
   - 300
   - 600
 mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10349:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      dispersion_xc: r2scan
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-r2scan-omat-ft.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10409:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      dispersion_xc: r2scan
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-r2scan-omat-ft.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10476:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      dispersion_xc: r2scan
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-r2scan-omat-ft.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10509:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      dispersion_xc: r2scan
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-r2scan-omat-ft.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10556:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      dispersion_xc: r2scan
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-r2scan-omat-ft.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_matpes_r2scan_0_D3_phonons-fc2_PhononForceConstants_mp-10694:
   N_q_mesh: 20
   delta: 0.05
   fmax: 0.0001
@@ -1605,34 +1370,19 @@ mace_mp_0a_D3_homonuclear-diatomics_HomonuclearDiatomics:
   n_points: 100
 mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-1000:
   node_idx: 1
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
   node_idx: 7
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
   node_idx: 13
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
   node_idx: 19
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
   node_idx: 25
-  total_no_nodes: 60
-mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10409:
-  node_idx: 31
-  total_no_nodes: 60
-mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10476:
-  node_idx: 37
-  total_no_nodes: 60
-mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10509:
-  node_idx: 43
-  total_no_nodes: 60
-mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10556:
-  node_idx: 49
-  total_no_nodes: 60
-mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10694:
-  node_idx: 55
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-1000:
   N_q_mesh: 20
   delta: 0.05
@@ -1714,106 +1464,6 @@ mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10299:
   - 300
   - 600
 mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10349:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: medium
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10409:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: medium
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10476:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: medium
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10509:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: medium
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10556:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: medium
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10694:
   N_q_mesh: 20
   delta: 0.05
   fmax: 0.0001
@@ -2223,34 +1873,19 @@ mace_mp_0b3_D3_homonuclear-diatomics_HomonuclearDiatomics:
   n_points: 100
 mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-1000:
   node_idx: 2
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
   node_idx: 8
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
   node_idx: 14
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
   node_idx: 20
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
   node_idx: 26
-  total_no_nodes: 60
-mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10409:
-  node_idx: 32
-  total_no_nodes: 60
-mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10476:
-  node_idx: 38
-  total_no_nodes: 60
-mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10509:
-  node_idx: 44
-  total_no_nodes: 60
-mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10556:
-  node_idx: 50
-  total_no_nodes: 60
-mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10694:
-  node_idx: 56
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-1000:
   N_q_mesh: 20
   delta: 0.05
@@ -2332,106 +1967,6 @@ mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10299:
   - 300
   - 600
 mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10349:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10409:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10476:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10509:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10556:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10694:
   N_q_mesh: 20
   delta: 0.05
   fmax: 0.0001
@@ -2841,34 +2376,19 @@ mace_mpa_0_D3_homonuclear-diatomics_HomonuclearDiatomics:
   n_points: 100
 mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-1000:
   node_idx: 3
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
   node_idx: 9
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
   node_idx: 15
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
   node_idx: 21
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
   node_idx: 27
-  total_no_nodes: 60
-mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409:
-  node_idx: 33
-  total_no_nodes: 60
-mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476:
-  node_idx: 39
-  total_no_nodes: 60
-mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509:
-  node_idx: 45
-  total_no_nodes: 60
-mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556:
-  node_idx: 51
-  total_no_nodes: 60
-mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694:
-  node_idx: 57
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-1000:
   N_q_mesh: 20
   delta: 0.05
@@ -2950,106 +2470,6 @@ mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10299:
   - 300
   - 600
 mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10349:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10409:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10476:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10509:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10556:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10694:
   N_q_mesh: 20
   delta: 0.05
   fmax: 0.0001
@@ -3459,34 +2879,19 @@ mace_omat_0_D3_homonuclear-diatomics_HomonuclearDiatomics:
   n_points: 100
 mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-1000:
   node_idx: 4
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
   node_idx: 10
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
   node_idx: 16
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
   node_idx: 22
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
   node_idx: 28
-  total_no_nodes: 60
-mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10409:
-  node_idx: 34
-  total_no_nodes: 60
-mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10476:
-  node_idx: 40
-  total_no_nodes: 60
-mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10509:
-  node_idx: 46
-  total_no_nodes: 60
-mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10556:
-  node_idx: 52
-  total_no_nodes: 60
-mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10694:
-  node_idx: 58
-  total_no_nodes: 60
+  total_no_nodes: 30
 mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-1000:
   N_q_mesh: 20
   delta: 0.05
@@ -3568,106 +2973,6 @@ mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10299:
   - 300
   - 600
 mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10349:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10409:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10476:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10509:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10556:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10694:
   N_q_mesh: 20
   delta: 0.05
   fmax: 0.0001
@@ -4024,21 +3329,6 @@ phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10299:
 phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10349:
   node_idx: null
   total_no_nodes: null
-phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10409:
-  node_idx: null
-  total_no_nodes: null
-phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10476:
-  node_idx: null
-  total_no_nodes: null
-phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10509:
-  node_idx: null
-  total_no_nodes: null
-phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10556:
-  node_idx: null
-  total_no_nodes: null
-phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10694:
-  node_idx: null
-  total_no_nodes: null
 phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-1000:
   phonopy_yaml_path: /home/jh2536/.cache/my_benchmark/alex_phonons/alex_phonon_data/mp-1000.yaml
 phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10163:
@@ -4049,16 +3339,6 @@ phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10299:
   phonopy_yaml_path: /home/jh2536/.cache/my_benchmark/alex_phonons/alex_phonon_data/mp-10299.yaml
 phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10349:
   phonopy_yaml_path: /home/jh2536/.cache/my_benchmark/alex_phonons/alex_phonon_data/mp-10349.yaml
-phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10409:
-  phonopy_yaml_path: /home/jh2536/.cache/my_benchmark/alex_phonons/alex_phonon_data/mp-10409.yaml
-phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10476:
-  phonopy_yaml_path: /home/jh2536/.cache/my_benchmark/alex_phonons/alex_phonon_data/mp-10476.yaml
-phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10509:
-  phonopy_yaml_path: /home/jh2536/.cache/my_benchmark/alex_phonons/alex_phonon_data/mp-10509.yaml
-phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10556:
-  phonopy_yaml_path: /home/jh2536/.cache/my_benchmark/alex_phonons/alex_phonon_data/mp-10556.yaml
-phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10694:
-  phonopy_yaml_path: /home/jh2536/.cache/my_benchmark/alex_phonons/alex_phonon_data/mp-10694.yaml
 ref_lattice-constant_Lattice-ref-types:
   ref_path: /home/jh2536/.cache/my_benchmark/lattice_constants/lattice_constants_ref_types.json
 ref_lattice-constant_LatticeConst-ref:
