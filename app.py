@@ -23,6 +23,7 @@ from mlipx.cli.main import full_benchmark_compare
 app = full_benchmark_compare(
     models=models,
     return_app=True,
+    report=False,
 )
 
 
