@@ -27,6 +27,7 @@ app = full_benchmark_compare(
 )
 
 
+
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
     print(f"Starting Dash app on port {port}...")
