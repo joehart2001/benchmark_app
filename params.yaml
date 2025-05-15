@@ -157,7 +157,7 @@ mace_matpes_PBE_0_D3_Elasticity:
       model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
     module: mace.calculators
   model_name: mace_matpes_PBE_0_D3
-  n_materials: 1000
+  n_materials: 100
   norm_strains: &id001
   - -0.1
   - -0.05
@@ -789,7 +789,7 @@ mace_matpes_r2scan_0_D3_Elasticity:
       model: /home/jh2536/rds/hpc-work/models/MACE-matpes-r2scan-omat-ft.model
     module: mace.calculators
   model_name: mace_matpes_r2scan_0_D3
-  n_materials: 1000
+  n_materials: 100
   norm_strains: *id001
   relax_structure: true
   shear_strains: *id002
@@ -1323,7 +1323,7 @@ mace_mp_0a_D3_Elasticity:
       model: medium
     module: mace.calculators
   model_name: mace_mp_0a_D3
-  n_materials: 1000
+  n_materials: 100
   norm_strains: *id001
   relax_structure: true
   shear_strains: *id002
@@ -1826,7 +1826,7 @@ mace_mp_0b3_D3_Elasticity:
       model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
     module: mace.calculators
   model_name: mace_mp_0b3_D3
-  n_materials: 1000
+  n_materials: 100
   norm_strains: *id001
   relax_structure: true
   shear_strains: *id002
@@ -2329,7 +2329,7 @@ mace_mpa_0_D3_Elasticity:
       model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
     module: mace.calculators
   model_name: mace_mpa_0_D3
-  n_materials: 1000
+  n_materials: 100
   norm_strains: *id001
   relax_structure: true
   shear_strains: *id002
@@ -2832,7 +2832,7 @@ mace_omat_0_D3_Elasticity:
       model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
     module: mace.calculators
   model_name: mace_omat_0_D3
-  n_materials: 1000
+  n_materials: 100
   norm_strains: *id001
   relax_structure: true
   shear_strains: *id002
