@@ -1,0 +1,7 @@
+Model,K_bulk [GPa],K_shear [GPa],Elasticity Score ↓,Rank
+mace_mp_0a_D3,29.146,19.41,1.0,3
+mace_mp_0b3_D3,25.261,18.393,0.907,2
+mace_mpa_0_D3,35.617,20.019,1.127,4
+mace_omat_0_D3,34.017,22.04,1.151,5
+mace_matpes_PBE_0_D3,18.974,15.751,0.731,1
+mace_matpes_r2scan_0_D3,35.829,21.172,1.16,6
