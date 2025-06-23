@@ -1,187 +1,186 @@
 model,subset,mae,description,category
-mace_mp_0a_D3,amino20x4,1.7305037883171834,Relative energies in amino acid conformers,Intramolecular NCIs
-mace_mp_0a_D3,bhrot27,3.258001434857271,Barrier heights for rotation around single bonds,Barrier heights
-mace_mp_0a_D3,fh51,10.820895652953576,Reaction energies in various (in-)organic systems,Small systems
-mace_mp_0a_D3,taut15,6.56410001629024,Relative energies in tautomers,Small systems
-mace_mp_0a_D3,wcpt18,19.00528240961647,Proton-transfer barriers in uncatalysed and water-catalysed reactions,Barrier heights
-mace_mp_0a_D3,pconf21,3.3840118164323063,Relative energies in tri- and tetrapeptide conformers,Intramolecular NCIs
-mace_mp_0a_D3,darc,12.478455303572495,Reaction energies of Diels–Alder reactions,Large systems
-mace_mp_0a_D3,iconf,3.766870469009507,Relative energies in conformers of inorganic systems,Intramolecular NCIs
-mace_mp_0a_D3,iso34,5.485505628435937,Isomerisation energies of small and medium-sized organic molecules,Large systems
-mace_mp_0a_D3,rg18,0.4856696603317451,Interaction energies in rare-gas complexes,Intermolecular NCIs
-mace_mp_0a_D3,px13,17.037573310426758,Proton-exchange barriers in H2O,Barrier heights
-mace_mp_0a_D3,g2rc,17.368207958824176,Reaciton energies of selected G2/97 systems,Small systems
-mace_mp_0a_D3,bhdiv10,27.321968551277617,Diverse reaction barrier heights,Barrier heights
-mace_mp_0a_D3,bhperi,12.492000926886668,Barrier heights of pericyclic reactions,Barrier heights
-mace_mp_0a_D3,nbprc,17.276734670266144,Oligomerisations and H2 fragmentations of NH3/BH3 systems,Small systems
-mace_mp_0a_D3,al2x6,2.934659000406366,Dimerisation energies of AlX3 compounds,Small systems
-mace_mp_0a_D3,c60iso,27.697729986281608,Relative energies between C60 isomers,Large systems
-mace_mp_0a_D3,sconf,1.439471023192607,Relative energies of sugar conformers,Intramolecular NCIs
-mace_mp_0a_D3,mconf,1.5856735685899983,Relative energies in melatonin conformers,Intramolecular NCIs
-mace_mp_0a_D3,s22,2.088882225282809,Binding energies of noncovalently bound dimers,Intermolecular NCIs
-mace_mp_0a_D3,idisp,3.7672860432434447,Intramolecular dispersion interactions,Intramolecular NCIs
-mace_mp_0a_D3,hal59,1.8951039565167624,Binding energies in halogenated dimers (incl. halogen bonds),Intermolecular NCIs
-mace_mp_0a_D3,but14diol,6.1115001277663,Relative energies of sugar conformers,Intramolecular NCIs
-mace_mp_0a_D3,carbhb12,3.010165718824936,Hydrogen-bonded complexes between carbene analogues and H2O,Intermolecular NCIs
-mace_mp_0a_D3,pnico23,2.2486146398571205,Interaction energies in pnicogen-containing dimers,Intermolecular NCIs
-mace_mp_0a_D3,cdie20,3.663403612399211,Double-bond isomerisation energies in cyclic systems,Large systems
-mace_mp_0a_D3,bsr36,35.98222922223741,Bond-separation reactions of saturated hydrocarbons,Large systems
-mace_mp_0a_D3,heavy28,1.689958291252023,Noncovalent interaction energies between heavy element hydrides,Intermolecular NCIs
-mace_mp_0a_D3,adim6,4.527400575828877,Interaction energies of n-alkane dimers,Intermolecular NCIs
-mace_mp_0a_D3,s66,1.6679197231191218,Binding energies of noncovalently bound dimers,Intermolecular NCIs
-mace_mp_0a_D3,aconf,0.5153328950867908,Relative energies of alkane conformers,Intramolecular NCIs
-mace_mp_0b3_D3,amino20x4,2.320588753424294,Relative energies in amino acid conformers,Intramolecular NCIs
-mace_mp_0b3_D3,bhrot27,2.3810710184305144,Barrier heights for rotation around single bonds,Barrier heights
-mace_mp_0b3_D3,fh51,11.501783367218938,Reaction energies in various (in-)organic systems,Small systems
-mace_mp_0b3_D3,taut15,3.4654433341151605,Relative energies in tautomers,Small systems
-mace_mp_0b3_D3,wcpt18,12.736157317540709,Proton-transfer barriers in uncatalysed and water-catalysed reactions,Barrier heights
-mace_mp_0b3_D3,pconf21,5.142488135704304,Relative energies in tri- and tetrapeptide conformers,Intramolecular NCIs
-mace_mp_0b3_D3,darc,18.60633368869238,Reaction energies of Diels–Alder reactions,Large systems
-mace_mp_0b3_D3,iconf,3.172654439936737,Relative energies in conformers of inorganic systems,Intramolecular NCIs
-mace_mp_0b3_D3,iso34,5.539003166836328,Isomerisation energies of small and medium-sized organic molecules,Large systems
-mace_mp_0b3_D3,rg18,0.5319903818224295,Interaction energies in rare-gas complexes,Intermolecular NCIs
-mace_mp_0b3_D3,px13,16.081256071159274,Proton-exchange barriers in H2O,Barrier heights
-mace_mp_0b3_D3,g2rc,20.70602710380948,Reaciton energies of selected G2/97 systems,Small systems
-mace_mp_0b3_D3,bhdiv10,23.070801277937413,Diverse reaction barrier heights,Barrier heights
-mace_mp_0b3_D3,bhperi,17.182576229733392,Barrier heights of pericyclic reactions,Barrier heights
-mace_mp_0b3_D3,nbprc,30.89892482709152,Oligomerisations and H2 fragmentations of NH3/BH3 systems,Small systems
-mace_mp_0b3_D3,al2x6,7.493273968563091,Dimerisation energies of AlX3 compounds,Small systems
-mace_mp_0b3_D3,c60iso,35.88561923070054,Relative energies between C60 isomers,Large systems
-mace_mp_0b3_D3,sconf,5.3641244287221514,Relative energies of sugar conformers,Intramolecular NCIs
-mace_mp_0b3_D3,mconf,2.947757123631854,Relative energies in melatonin conformers,Intramolecular NCIs
-mace_mp_0b3_D3,s22,6.249774944972535,Binding energies of noncovalently bound dimers,Intermolecular NCIs
-mace_mp_0b3_D3,idisp,16.24190221056432,Intramolecular dispersion interactions,Intramolecular NCIs
-mace_mp_0b3_D3,hal59,4.060871854645903,Binding energies in halogenated dimers (incl. halogen bonds),Intermolecular NCIs
-mace_mp_0b3_D3,but14diol,0.847538857779696,Relative energies of sugar conformers,Intramolecular NCIs
-mace_mp_0b3_D3,carbhb12,4.82026962574447,Hydrogen-bonded complexes between carbene analogues and H2O,Intermolecular NCIs
-mace_mp_0b3_D3,pnico23,4.235229502759824,Interaction energies in pnicogen-containing dimers,Intermolecular NCIs
-mace_mp_0b3_D3,cdie20,2.7457567411001085,Double-bond isomerisation energies in cyclic systems,Large systems
-mace_mp_0b3_D3,bsr36,18.564415641337195,Bond-separation reactions of saturated hydrocarbons,Large systems
-mace_mp_0b3_D3,heavy28,5.098473729805739,Noncovalent interaction energies between heavy element hydrides,Intermolecular NCIs
-mace_mp_0b3_D3,adim6,8.841659129188406,Interaction energies of n-alkane dimers,Intermolecular NCIs
-mace_mp_0b3_D3,s66,6.303808854610111,Binding energies of noncovalently bound dimers,Intermolecular NCIs
-mace_mp_0b3_D3,aconf,2.8914552121147796,Relative energies of alkane conformers,Intramolecular NCIs
-mace_mpa_0_D3,amino20x4,2.0327661528350753,Relative energies in amino acid conformers,Intramolecular NCIs
-mace_mpa_0_D3,bhrot27,2.2411391322998253,Barrier heights for rotation around single bonds,Barrier heights
-mace_mpa_0_D3,fh51,12.212266673182889,Reaction energies in various (in-)organic systems,Small systems
-mace_mpa_0_D3,taut15,3.535858605852777,Relative energies in tautomers,Small systems
-mace_mpa_0_D3,wcpt18,15.538056445099496,Proton-transfer barriers in uncatalysed and water-catalysed reactions,Barrier heights
-mace_mpa_0_D3,pconf21,7.496806582176553,Relative energies in tri- and tetrapeptide conformers,Intramolecular NCIs
-mace_mpa_0_D3,darc,19.30295815374212,Reaction energies of Diels–Alder reactions,Large systems
-mace_mpa_0_D3,iconf,1.6359998218603722,Relative energies in conformers of inorganic systems,Intramolecular NCIs
-mace_mpa_0_D3,iso34,5.641016072261195,Isomerisation energies of small and medium-sized organic molecules,Large systems
-mace_mpa_0_D3,rg18,0.7122304374418515,Interaction energies in rare-gas complexes,Intermolecular NCIs
-mace_mpa_0_D3,px13,18.98703184242652,Proton-exchange barriers in H2O,Barrier heights
-mace_mpa_0_D3,g2rc,18.132867351214745,Reaciton energies of selected G2/97 systems,Small systems
-mace_mpa_0_D3,bhdiv10,17.080989135274912,Diverse reaction barrier heights,Barrier heights
-mace_mpa_0_D3,bhperi,13.380000960066951,Barrier heights of pericyclic reactions,Barrier heights
-mace_mpa_0_D3,nbprc,30.29997868576133,Oligomerisations and H2 fragmentations of NH3/BH3 systems,Small systems
-mace_mpa_0_D3,al2x6,10.554859687901958,Dimerisation energies of AlX3 compounds,Small systems
-mace_mpa_0_D3,c60iso,27.65081286310867,Relative energies between C60 isomers,Large systems
-mace_mpa_0_D3,sconf,4.882786324491297,Relative energies of sugar conformers,Intramolecular NCIs
-mace_mpa_0_D3,mconf,4.965038398138074,Relative energies in melatonin conformers,Intramolecular NCIs
-mace_mpa_0_D3,s22,10.211077880121469,Binding energies of noncovalently bound dimers,Intermolecular NCIs
-mace_mpa_0_D3,idisp,17.111940079300762,Intramolecular dispersion interactions,Intramolecular NCIs
-mace_mpa_0_D3,hal59,6.355440992094073,Binding energies in halogenated dimers (incl. halogen bonds),Intermolecular NCIs
-mace_mpa_0_D3,but14diol,4.385935608316764,Relative energies of sugar conformers,Intramolecular NCIs
-mace_mpa_0_D3,carbhb12,6.708458693730544,Hydrogen-bonded complexes between carbene analogues and H2O,Intermolecular NCIs
-mace_mpa_0_D3,pnico23,4.903965033868317,Interaction energies in pnicogen-containing dimers,Intermolecular NCIs
-mace_mpa_0_D3,cdie20,6.66150423576982,Double-bond isomerisation energies in cyclic systems,Large systems
-mace_mpa_0_D3,bsr36,16.60065205122063,Bond-separation reactions of saturated hydrocarbons,Large systems
-mace_mpa_0_D3,heavy28,6.897809927777028,Noncovalent interaction energies between heavy element hydrides,Intermolecular NCIs
-mace_mpa_0_D3,adim6,22.135005688653845,Interaction energies of n-alkane dimers,Intermolecular NCIs
-mace_mpa_0_D3,s66,10.9228744323602,Binding energies of noncovalently bound dimers,Intermolecular NCIs
-mace_mpa_0_D3,aconf,3.308634080879229,Relative energies of alkane conformers,Intramolecular NCIs
-mace_omat_0_D3,amino20x4,1.5231244255169376,Relative energies in amino acid conformers,Intramolecular NCIs
-mace_omat_0_D3,bhrot27,3.77555659073893,Barrier heights for rotation around single bonds,Barrier heights
-mace_omat_0_D3,fh51,11.720001771370834,Reaction energies in various (in-)organic systems,Small systems
-mace_omat_0_D3,taut15,5.1531068332289465,Relative energies in tautomers,Small systems
-mace_omat_0_D3,wcpt18,15.956223961747988,Proton-transfer barriers in uncatalysed and water-catalysed reactions,Barrier heights
-mace_omat_0_D3,pconf21,5.446165957223634,Relative energies in tri- and tetrapeptide conformers,Intramolecular NCIs
-mace_omat_0_D3,darc,10.465123603048152,Reaction energies of Diels–Alder reactions,Large systems
-mace_omat_0_D3,iconf,1.9012920669218127,Relative energies in conformers of inorganic systems,Intramolecular NCIs
-mace_omat_0_D3,iso34,4.557399806114924,Isomerisation energies of small and medium-sized organic molecules,Large systems
-mace_omat_0_D3,rg18,2.6449474855799457,Interaction energies in rare-gas complexes,Intermolecular NCIs
-mace_omat_0_D3,px13,17.35308744094704,Proton-exchange barriers in H2O,Barrier heights
-mace_omat_0_D3,g2rc,15.685307984671956,Reaciton energies of selected G2/97 systems,Small systems
-mace_omat_0_D3,bhdiv10,13.588725545907664,Diverse reaction barrier heights,Barrier heights
-mace_omat_0_D3,bhperi,13.069194153359744,Barrier heights of pericyclic reactions,Barrier heights
-mace_omat_0_D3,nbprc,22.868437068487214,Oligomerisations and H2 fragmentations of NH3/BH3 systems,Small systems
-mace_omat_0_D3,al2x6,19.70654810795453,Dimerisation energies of AlX3 compounds,Small systems
-mace_omat_0_D3,c60iso,42.56870778440857,Relative energies between C60 isomers,Large systems
-mace_omat_0_D3,sconf,2.909392814933573,Relative energies of sugar conformers,Intramolecular NCIs
-mace_omat_0_D3,mconf,3.1270039372998326,Relative energies in melatonin conformers,Intramolecular NCIs
-mace_omat_0_D3,s22,8.44645350873352,Binding energies of noncovalently bound dimers,Intermolecular NCIs
-mace_omat_0_D3,idisp,12.052344865229522,Intramolecular dispersion interactions,Intramolecular NCIs
-mace_omat_0_D3,hal59,10.037382845140597,Binding energies in halogenated dimers (incl. halogen bonds),Intermolecular NCIs
-mace_omat_0_D3,but14diol,4.1990814339902665,Relative energies of sugar conformers,Intramolecular NCIs
-mace_omat_0_D3,carbhb12,9.967552220444604,Hydrogen-bonded complexes between carbene analogues and H2O,Intermolecular NCIs
-mace_omat_0_D3,pnico23,7.978838061809379,Interaction energies in pnicogen-containing dimers,Intermolecular NCIs
-mace_omat_0_D3,cdie20,6.5118522198425355,Double-bond isomerisation energies in cyclic systems,Large systems
-mace_omat_0_D3,bsr36,16.780588896330002,Bond-separation reactions of saturated hydrocarbons,Large systems
-mace_omat_0_D3,heavy28,11.44690921270571,Noncovalent interaction energies between heavy element hydrides,Intermolecular NCIs
-mace_omat_0_D3,adim6,17.266198587825574,Interaction energies of n-alkane dimers,Intermolecular NCIs
-mace_omat_0_D3,s66,10.05099293462894,Binding energies of noncovalently bound dimers,Intermolecular NCIs
-mace_omat_0_D3,aconf,0.974835952854466,Relative energies of alkane conformers,Intramolecular NCIs
-mace_matpes_PBE_0_D3,amino20x4,1.5340396813176422,Relative energies in amino acid conformers,Intramolecular NCIs
-mace_matpes_PBE_0_D3,bhrot27,2.8182619217746794,Barrier heights for rotation around single bonds,Barrier heights
-mace_matpes_PBE_0_D3,fh51,10.05897212195461,Reaction energies in various (in-)organic systems,Small systems
-mace_matpes_PBE_0_D3,taut15,4.10988855558934,Relative energies in tautomers,Small systems
-mace_matpes_PBE_0_D3,wcpt18,10.298541776985322,Proton-transfer barriers in uncatalysed and water-catalysed reactions,Barrier heights
-mace_matpes_PBE_0_D3,pconf21,2.6075706747555767,Relative energies in tri- and tetrapeptide conformers,Intramolecular NCIs
-mace_matpes_PBE_0_D3,darc,10.19613965454332,Reaction energies of Diels–Alder reactions,Large systems
-mace_matpes_PBE_0_D3,iconf,2.775204275644889,Relative energies in conformers of inorganic systems,Intramolecular NCIs
-mace_matpes_PBE_0_D3,iso34,5.956961210620964,Isomerisation energies of small and medium-sized organic molecules,Large systems
-mace_matpes_PBE_0_D3,rg18,0.6693230468141098,Interaction energies in rare-gas complexes,Intermolecular NCIs
-mace_matpes_PBE_0_D3,px13,15.72883499903712,Proton-exchange barriers in H2O,Barrier heights
-mace_matpes_PBE_0_D3,g2rc,15.882154726247968,Reaciton energies of selected G2/97 systems,Small systems
-mace_matpes_PBE_0_D3,bhdiv10,13.354679382229204,Diverse reaction barrier heights,Barrier heights
-mace_matpes_PBE_0_D3,bhperi,9.915932547459986,Barrier heights of pericyclic reactions,Barrier heights
-mace_matpes_PBE_0_D3,nbprc,14.879735664669726,Oligomerisations and H2 fragmentations of NH3/BH3 systems,Small systems
-mace_matpes_PBE_0_D3,al2x6,6.463967551868769,Dimerisation energies of AlX3 compounds,Small systems
-mace_matpes_PBE_0_D3,c60iso,17.199936301927213,Relative energies between C60 isomers,Large systems
-mace_matpes_PBE_0_D3,sconf,3.1170536043672255,Relative energies of sugar conformers,Intramolecular NCIs
-mace_matpes_PBE_0_D3,mconf,3.0903383937312037,Relative energies in melatonin conformers,Intramolecular NCIs
-mace_matpes_PBE_0_D3,s22,2.624863529845634,Binding energies of noncovalently bound dimers,Intermolecular NCIs
-mace_matpes_PBE_0_D3,idisp,21.08593421730285,Intramolecular dispersion interactions,Intramolecular NCIs
-mace_matpes_PBE_0_D3,hal59,2.963163763304772,Binding energies in halogenated dimers (incl. halogen bonds),Intermolecular NCIs
-mace_matpes_PBE_0_D3,but14diol,1.5049222107157108,Relative energies of sugar conformers,Intramolecular NCIs
-mace_matpes_PBE_0_D3,carbhb12,3.534202468065874,Hydrogen-bonded complexes between carbene analogues and H2O,Intermolecular NCIs
-mace_matpes_PBE_0_D3,pnico23,1.9298725689128935,Interaction energies in pnicogen-containing dimers,Intermolecular NCIs
-mace_matpes_PBE_0_D3,cdie20,6.606940063663387,Double-bond isomerisation energies in cyclic systems,Large systems
-mace_matpes_PBE_0_D3,bsr36,14.886857012544718,Bond-separation reactions of saturated hydrocarbons,Large systems
-mace_matpes_PBE_0_D3,heavy28,3.647513413252224,Noncovalent interaction energies between heavy element hydrides,Intermolecular NCIs
-mace_matpes_PBE_0_D3,adim6,2.434462375891256,Interaction energies of n-alkane dimers,Intermolecular NCIs
-mace_matpes_PBE_0_D3,s66,2.3870950480566617,Binding energies of noncovalently bound dimers,Intermolecular NCIs
-mace_matpes_PBE_0_D3,aconf,0.7262405595047594,Relative energies of alkane conformers,Intramolecular NCIs
-mace_matpes_r2scan_0_D3,amino20x4,3.756055256871361,Relative energies in amino acid conformers,Intramolecular NCIs
-mace_matpes_r2scan_0_D3,bhrot27,4.320549097962803,Barrier heights for rotation around single bonds,Barrier heights
-mace_matpes_r2scan_0_D3,fh51,12.983603234570962,Reaction energies in various (in-)organic systems,Small systems
-mace_matpes_r2scan_0_D3,taut15,5.860913716872352,Relative energies in tautomers,Small systems
-mace_matpes_r2scan_0_D3,wcpt18,21.74897071778352,Proton-transfer barriers in uncatalysed and water-catalysed reactions,Barrier heights
-mace_matpes_r2scan_0_D3,pconf21,4.8873543444127625,Relative energies in tri- and tetrapeptide conformers,Intramolecular NCIs
-mace_matpes_r2scan_0_D3,darc,14.197825563425084,Reaction energies of Diels–Alder reactions,Large systems
-mace_matpes_r2scan_0_D3,iconf,3.5179542218113946,Relative energies in conformers of inorganic systems,Intramolecular NCIs
-mace_matpes_r2scan_0_D3,iso34,7.377972363369929,Isomerisation energies of small and medium-sized organic molecules,Large systems
-mace_matpes_r2scan_0_D3,rg18,4.789008591096884,Interaction energies in rare-gas complexes,Intermolecular NCIs
-mace_matpes_r2scan_0_D3,px13,12.563949247985748,Proton-exchange barriers in H2O,Barrier heights
-mace_matpes_r2scan_0_D3,g2rc,22.744927336930964,Reaciton energies of selected G2/97 systems,Small systems
-mace_matpes_r2scan_0_D3,bhdiv10,11.669313882419916,Diverse reaction barrier heights,Barrier heights
-mace_matpes_r2scan_0_D3,bhperi,14.165542803312954,Barrier heights of pericyclic reactions,Barrier heights
-mace_matpes_r2scan_0_D3,nbprc,20.028003959874415,Oligomerisations and H2 fragmentations of NH3/BH3 systems,Small systems
-mace_matpes_r2scan_0_D3,al2x6,8.25457523343236,Dimerisation energies of AlX3 compounds,Small systems
-mace_matpes_r2scan_0_D3,c60iso,19.858738493812737,Relative energies between C60 isomers,Large systems
-mace_matpes_r2scan_0_D3,sconf,5.19726505346821,Relative energies of sugar conformers,Intramolecular NCIs
-mace_matpes_r2scan_0_D3,mconf,4.605067580316386,Relative energies in melatonin conformers,Intramolecular NCIs
-mace_matpes_r2scan_0_D3,s22,7.881775541717698,Binding energies of noncovalently bound dimers,Intermolecular NCIs
-mace_matpes_r2scan_0_D3,idisp,22.219548873703147,Intramolecular dispersion interactions,Intramolecular NCIs
-mace_matpes_r2scan_0_D3,hal59,5.585681422123092,Binding energies in halogenated dimers (incl. halogen bonds),Intermolecular NCIs
-mace_matpes_r2scan_0_D3,but14diol,2.872434213082178,Relative energies of sugar conformers,Intramolecular NCIs
-mace_matpes_r2scan_0_D3,carbhb12,12.257528849052187,Hydrogen-bonded complexes between carbene analogues and H2O,Intermolecular NCIs
-mace_matpes_r2scan_0_D3,pnico23,8.271265050743127,Interaction energies in pnicogen-containing dimers,Intermolecular NCIs
-mace_matpes_r2scan_0_D3,cdie20,5.640466094762159,Double-bond isomerisation energies in cyclic systems,Large systems
-mace_matpes_r2scan_0_D3,bsr36,80.5771110276469,Bond-separation reactions of saturated hydrocarbons,Large systems
-mace_matpes_r2scan_0_D3,heavy28,5.8958819282259265,Noncovalent interaction energies between heavy element hydrides,Intermolecular NCIs
-mace_matpes_r2scan_0_D3,adim6,4.838257144297798,Interaction energies of n-alkane dimers,Intermolecular NCIs
-mace_matpes_r2scan_0_D3,s66,7.48596248471461,Binding energies of noncovalently bound dimers,Intermolecular NCIs
-mace_matpes_r2scan_0_D3,aconf,2.7719067491380995,Relative energies of alkane conformers,Intramolecular NCIs
+mace_mp_0a,amino20x4,1.7988461461639491,Relative energies in amino acid conformers,Intramolecular NCIs
+mace_mp_0a,bhrot27,3.2514427778738915,Barrier heights for rotation around single bonds,Barrier heights
+mace_mp_0a,fh51,10.13542518273008,Reaction energies in various (in-)organic systems,Small systems
+mace_mp_0a,taut15,6.550805965588894,Relative energies in tautomers,Small systems
+mace_mp_0a,wcpt18,18.283824397505654,Proton-transfer barriers in uncatalysed and water-catalysed reactions,Barrier heights
+mace_mp_0a,pconf21,3.0511094207763625,Relative energies in tri- and tetrapeptide conformers,Intramolecular NCIs
+mace_mp_0a,darc,14.010563350609436,Reaction energies of Diels–Alder reactions,Large systems
+mace_mp_0a,iconf,3.599492921604821,Relative energies in conformers of inorganic systems,Intramolecular NCIs
+mace_mp_0a,iso34,5.274853713742414,Isomerisation energies of small and medium-sized organic molecules,Large systems
+mace_mp_0a,rg18,0.91993558659012,Interaction energies in rare-gas complexes,Intermolecular NCIs
+mace_mp_0a,px13,16.560752519849594,Proton-exchange barriers in H2O,Barrier heights
+mace_mp_0a,g2rc,16.76767200426769,Reaciton energies of selected G2/97 systems,Small systems
+mace_mp_0a,bhdiv10,26.68503459938055,Diverse reaction barrier heights,Barrier heights
+mace_mp_0a,bhperi,10.198801533588998,Barrier heights of pericyclic reactions,Barrier heights
+mace_mp_0a,nbprc,16.780468740926175,Oligomerisations and H2 fragmentations of NH3/BH3 systems,Small systems
+mace_mp_0a,al2x6,4.455950047938132,Dimerisation energies of AlX3 compounds,Small systems
+mace_mp_0a,c60iso,28.03905706583702,Relative energies between C60 isomers,Large systems
+mace_mp_0a,sconf,1.6297862599989907,Relative energies of sugar conformers,Intramolecular NCIs
+mace_mp_0a,mconf,1.7288314039343786,Relative energies in melatonin conformers,Intramolecular NCIs
+mace_mp_0a,s22,2.478526997020083,Binding energies of noncovalently bound dimers,Intermolecular NCIs
+mace_mp_0a,idisp,7.972723277521038,Intramolecular dispersion interactions,Intramolecular NCIs
+mace_mp_0a,hal59,2.7769662598003593,Binding energies in halogenated dimers (incl. halogen bonds),Intermolecular NCIs
+mace_mp_0a,but14diol,5.814703447651846,Relative energies of sugar conformers,Intramolecular NCIs
+mace_mp_0a,carbhb12,2.3027373998164835,Hydrogen-bonded complexes between carbene analogues and H2O,Intermolecular NCIs
+mace_mp_0a,pnico23,2.97667591065531,Interaction energies in pnicogen-containing dimers,Intermolecular NCIs
+mace_mp_0a,cdie20,3.784611836299901,Double-bond isomerisation energies in cyclic systems,Large systems
+mace_mp_0a,bsr36,40.488786702569016,Bond-separation reactions of saturated hydrocarbons,Large systems
+mace_mp_0a,heavy28,1.367980172474051,Noncovalent interaction energies between heavy element hydrides,Intermolecular NCIs
+mace_mp_0a,adim6,8.114626364262966,Interaction energies of n-alkane dimers,Intermolecular NCIs
+mace_mp_0a,s66,2.8163632084730934,Binding energies of noncovalently bound dimers,Intermolecular NCIs
+mace_mp_0a,aconf,0.5386438371785917,Relative energies of alkane conformers,Intramolecular NCIs
+mace_omat_0,amino20x4,1.6615843589687376,Relative energies in amino acid conformers,Intramolecular NCIs
+mace_omat_0,bhrot27,3.753863378563625,Barrier heights for rotation around single bonds,Barrier heights
+mace_omat_0,fh51,11.012666607021831,Reaction energies in various (in-)organic systems,Small systems
+mace_omat_0,taut15,5.141088167750047,Relative energies in tautomers,Small systems
+mace_omat_0,wcpt18,15.2387203894827,Proton-transfer barriers in uncatalysed and water-catalysed reactions,Barrier heights
+mace_omat_0,pconf21,4.583831658342008,Relative energies in tri- and tetrapeptide conformers,Intramolecular NCIs
+mace_omat_0,darc,6.725072217668782,Reaction energies of Diels–Alder reactions,Large systems
+mace_omat_0,iconf,1.8958215877084303,Relative energies in conformers of inorganic systems,Intramolecular NCIs
+mace_omat_0,iso34,4.471995957127725,Isomerisation energies of small and medium-sized organic molecules,Large systems
+mace_omat_0,rg18,2.763824897064145,Interaction energies in rare-gas complexes,Intermolecular NCIs
+mace_omat_0,px13,16.87619221015347,Proton-exchange barriers in H2O,Barrier heights
+mace_omat_0,g2rc,15.086043453716288,Reaciton energies of selected G2/97 systems,Small systems
+mace_omat_0,bhdiv10,12.87846987926489,Diverse reaction barrier heights,Barrier heights
+mace_omat_0,bhperi,10.469585908721136,Barrier heights of pericyclic reactions,Barrier heights
+mace_omat_0,nbprc,22.2287171777765,Oligomerisations and H2 fragmentations of NH3/BH3 systems,Small systems
+mace_omat_0,al2x6,16.194272103786307,Dimerisation energies of AlX3 compounds,Small systems
+mace_omat_0,c60iso,42.90831426323748,Relative energies between C60 isomers,Large systems
+mace_omat_0,sconf,2.656823412008922,Relative energies of sugar conformers,Intramolecular NCIs
+mace_omat_0,mconf,3.0045321510763516,Relative energies in melatonin conformers,Intramolecular NCIs
+mace_omat_0,s22,6.851581258912444,Binding energies of noncovalently bound dimers,Intermolecular NCIs
+mace_omat_0,idisp,11.642844211149374,Intramolecular dispersion interactions,Intramolecular NCIs
+mace_omat_0,hal59,8.812612045319579,Binding energies in halogenated dimers (incl. halogen bonds),Intermolecular NCIs
+mace_omat_0,but14diol,3.9136505416273777,Relative energies of sugar conformers,Intramolecular NCIs
+mace_omat_0,carbhb12,9.127499561878066,Hydrogen-bonded complexes between carbene analogues and H2O,Intermolecular NCIs
+mace_omat_0,pnico23,6.721669113855765,Interaction energies in pnicogen-containing dimers,Intermolecular NCIs
+mace_omat_0,cdie20,6.710862982559183,Double-bond isomerisation energies in cyclic systems,Large systems
+mace_omat_0,bsr36,12.31356553135961,Bond-separation reactions of saturated hydrocarbons,Large systems
+mace_omat_0,heavy28,10.599730356097224,Noncovalent interaction energies between heavy element hydrides,Intermolecular NCIs
+mace_omat_0,adim6,13.679119359588732,Interaction energies of n-alkane dimers,Intermolecular NCIs
+mace_omat_0,s66,7.826130099467064,Binding energies of noncovalently bound dimers,Intermolecular NCIs
+mace_omat_0,aconf,0.674577423095645,Relative energies of alkane conformers,Intramolecular NCIs
+mace_matpes_r2scan_cpu,amino20x4,0.726961340608631,Relative energies in amino acid conformers,Intramolecular NCIs
+mace_matpes_r2scan_cpu,bhrot27,0.8036230592268545,Barrier heights for rotation around single bonds,Barrier heights
+mace_matpes_r2scan_cpu,fh51,4.891101095723167,Reaction energies in various (in-)organic systems,Small systems
+mace_matpes_r2scan_cpu,taut15,1.411734852256782,Relative energies in tautomers,Small systems
+mace_matpes_r2scan_cpu,wcpt18,5.988375620206179,Proton-transfer barriers in uncatalysed and water-catalysed reactions,Barrier heights
+mace_matpes_r2scan_cpu,pconf21,1.9779928643121825,Relative energies in tri- and tetrapeptide conformers,Intramolecular NCIs
+mace_matpes_r2scan_cpu,darc,12.947929537037366,Reaction energies of Diels–Alder reactions,Large systems
+mace_matpes_r2scan_cpu,iconf,0.7326303913564934,Relative energies in conformers of inorganic systems,Intramolecular NCIs
+mace_matpes_r2scan_cpu,iso34,2.1733560383291435,Isomerisation energies of small and medium-sized organic molecules,Large systems
+mace_matpes_r2scan_cpu,rg18,0.7614352371997983,Interaction energies in rare-gas complexes,Intermolecular NCIs
+mace_matpes_r2scan_cpu,px13,12.386425661982006,Proton-exchange barriers in H2O,Barrier heights
+mace_matpes_r2scan_cpu,g2rc,11.03558055093862,Reaciton energies of selected G2/97 systems,Small systems
+mace_matpes_r2scan_cpu,bhdiv10,7.894325511970548,Diverse reaction barrier heights,Barrier heights
+mace_matpes_r2scan_cpu,bhperi,5.302343368772379,Barrier heights of pericyclic reactions,Barrier heights
+mace_matpes_r2scan_cpu,nbprc,15.564778516220978,Oligomerisations and H2 fragmentations of NH3/BH3 systems,Small systems
+mace_matpes_r2scan_cpu,al2x6,7.614219031111339,Dimerisation energies of AlX3 compounds,Small systems
+mace_matpes_r2scan_cpu,c60iso,24.68492347819014,Relative energies between C60 isomers,Large systems
+mace_matpes_r2scan_cpu,sconf,1.3701882724539285,Relative energies of sugar conformers,Intramolecular NCIs
+mace_matpes_r2scan_cpu,mconf,0.569113248757634,Relative energies in melatonin conformers,Intramolecular NCIs
+mace_matpes_r2scan_cpu,s22,1.4091569340315924,Binding energies of noncovalently bound dimers,Intermolecular NCIs
+mace_matpes_r2scan_cpu,idisp,8.595158743222242,Intramolecular dispersion interactions,Intramolecular NCIs
+mace_matpes_r2scan_cpu,hal59,1.8407228254334245,Binding energies in halogenated dimers (incl. halogen bonds),Intermolecular NCIs
+mace_matpes_r2scan_cpu,but14diol,0.1907387688279014,Relative energies of sugar conformers,Intramolecular NCIs
+mace_matpes_r2scan_cpu,carbhb12,2.0486120539903587,Hydrogen-bonded complexes between carbene analogues and H2O,Intermolecular NCIs
+mace_matpes_r2scan_cpu,pnico23,2.417945031904093,Interaction energies in pnicogen-containing dimers,Intermolecular NCIs
+mace_matpes_r2scan_cpu,cdie20,1.9819709042549176,Double-bond isomerisation energies in cyclic systems,Large systems
+mace_matpes_r2scan_cpu,bsr36,10.961867884572111,Bond-separation reactions of saturated hydrocarbons,Large systems
+mace_matpes_r2scan_cpu,heavy28,1.8853929739100648,Noncovalent interaction energies between heavy element hydrides,Intermolecular NCIs
+mace_matpes_r2scan_cpu,adim6,2.831684158325197,Interaction energies of n-alkane dimers,Intermolecular NCIs
+mace_matpes_r2scan_cpu,s66,1.1574055267131642,Binding energies of noncovalently bound dimers,Intermolecular NCIs
+mace_matpes_r2scan_cpu,aconf,0.3095369439188006,Relative energies of alkane conformers,Intramolecular NCIs
+uma_sm_omat,amino20x4,0.8901645373940429,Relative energies in amino acid conformers,Intramolecular NCIs
+uma_sm_omat,bhrot27,1.5009596560129503,Barrier heights for rotation around single bonds,Barrier heights
+uma_sm_omat,fh51,4.8798353373175125,Reaction energies in various (in-)organic systems,Small systems
+uma_sm_omat,taut15,1.6718644315235656,Relative energies in tautomers,Small systems
+uma_sm_omat,wcpt18,6.2067271872734,Proton-transfer barriers in uncatalysed and water-catalysed reactions,Barrier heights
+uma_sm_omat,pconf21,4.122001529460508,Relative energies in tri- and tetrapeptide conformers,Intramolecular NCIs
+uma_sm_omat,darc,11.080673804711196,Reaction energies of Diels–Alder reactions,Large systems
+uma_sm_omat,iconf,0.9181692130326902,Relative energies in conformers of inorganic systems,Intramolecular NCIs
+uma_sm_omat,iso34,2.0454864041048095,Isomerisation energies of small and medium-sized organic molecules,Large systems
+uma_sm_omat,px13,14.002881041758677,Proton-exchange barriers in H2O,Barrier heights
+uma_sm_omat,g2rc,53.49614740872783,Reaciton energies of selected G2/97 systems,Small systems
+uma_sm_omat,bhdiv10,9.133723271105255,Diverse reaction barrier heights,Barrier heights
+uma_sm_omat,bhperi,4.12567884426744,Barrier heights of pericyclic reactions,Barrier heights
+uma_sm_omat,nbprc,154.0155530594116,Oligomerisations and H2 fragmentations of NH3/BH3 systems,Small systems
+uma_sm_omat,al2x6,69.82301212667194,Dimerisation energies of AlX3 compounds,Small systems
+uma_sm_omat,c60iso,27.138807579634236,Relative energies between C60 isomers,Large systems
+uma_sm_omat,sconf,1.8123602079223824,Relative energies of sugar conformers,Intramolecular NCIs
+uma_sm_omat,mconf,2.291502425436857,Relative energies in melatonin conformers,Intramolecular NCIs
+uma_sm_omat,s22,5.1237843691040625,Binding energies of noncovalently bound dimers,Intermolecular NCIs
+uma_sm_omat,idisp,12.132034707553863,Intramolecular dispersion interactions,Intramolecular NCIs
+uma_sm_omat,hal59,6.580213040367269,Binding energies in halogenated dimers (incl. halogen bonds),Intermolecular NCIs
+uma_sm_omat,but14diol,1.9300490515650008,Relative energies of sugar conformers,Intramolecular NCIs
+uma_sm_omat,carbhb12,2.2193004796823255,Hydrogen-bonded complexes between carbene analogues and H2O,Intermolecular NCIs
+uma_sm_omat,pnico23,2.35073373635109,Interaction energies in pnicogen-containing dimers,Intermolecular NCIs
+uma_sm_omat,cdie20,1.3870785864257846,Double-bond isomerisation energies in cyclic systems,Large systems
+uma_sm_omat,bsr36,9.867715858646504,Bond-separation reactions of saturated hydrocarbons,Large systems
+uma_sm_omat,heavy28,1.7920018477665631,Noncovalent interaction energies between heavy element hydrides,Intermolecular NCIs
+uma_sm_omat,adim6,1.6523829405481212,Interaction energies of n-alkane dimers,Intermolecular NCIs
+uma_sm_omat,s66,4.1355577390978295,Binding energies of noncovalently bound dimers,Intermolecular NCIs
+uma_sm_omat,aconf,0.3216199781544863,Relative energies of alkane conformers,Intramolecular NCIs
+mattersim_5M,amino20x4,1.8686658911895475,Relative energies in amino acid conformers,Intramolecular NCIs
+mattersim_5M,bhrot27,3.4288677049212883,Barrier heights for rotation around single bonds,Barrier heights
+mattersim_5M,fh51,6.486124664139272,Reaction energies in various (in-)organic systems,Small systems
+mattersim_5M,taut15,4.342080462455752,Relative energies in tautomers,Small systems
+mattersim_5M,wcpt18,13.358271479622523,Proton-transfer barriers in uncatalysed and water-catalysed reactions,Barrier heights
+mattersim_5M,pconf21,4.684803926849371,Relative energies in tri- and tetrapeptide conformers,Intramolecular NCIs
+mattersim_5M,darc,8.640134495871399,Reaction energies of Diels–Alder reactions,Large systems
+mattersim_5M,iconf,2.090105346073835,Relative energies in conformers of inorganic systems,Intramolecular NCIs
+mattersim_5M,iso34,4.932141249858621,Isomerisation energies of small and medium-sized organic molecules,Large systems
+mattersim_5M,rg18,1.564428818126686,Interaction energies in rare-gas complexes,Intermolecular NCIs
+mattersim_5M,px13,13.962512641936096,Proton-exchange barriers in H2O,Barrier heights
+mattersim_5M,g2rc,10.73970666818809,Reaciton energies of selected G2/97 systems,Small systems
+mattersim_5M,bhdiv10,11.615524434967046,Diverse reaction barrier heights,Barrier heights
+mattersim_5M,bhperi,5.6172978897608505,Barrier heights of pericyclic reactions,Barrier heights
+mattersim_5M,nbprc,11.122535112373066,Oligomerisations and H2 fragmentations of NH3/BH3 systems,Small systems
+mattersim_5M,al2x6,10.478624489815973,Dimerisation energies of AlX3 compounds,Small systems
+mattersim_5M,c60iso,30.459375590684992,Relative energies between C60 isomers,Large systems
+mattersim_5M,sconf,2.3493050078447726,Relative energies of sugar conformers,Intramolecular NCIs
+mattersim_5M,mconf,3.2963836678301304,Relative energies in melatonin conformers,Intramolecular NCIs
+mattersim_5M,s22,3.398581070826287,Binding energies of noncovalently bound dimers,Intermolecular NCIs
+mattersim_5M,idisp,17.85338999255477,Intramolecular dispersion interactions,Intramolecular NCIs
+mattersim_5M,hal59,2.307317612402705,Binding energies in halogenated dimers (incl. halogen bonds),Intermolecular NCIs
+mattersim_5M,but14diol,2.8478748493909167,Relative energies of sugar conformers,Intramolecular NCIs
+mattersim_5M,carbhb12,2.986561615590245,Hydrogen-bonded complexes between carbene analogues and H2O,Intermolecular NCIs
+mattersim_5M,pnico23,3.727238381676068,Interaction energies in pnicogen-containing dimers,Intermolecular NCIs
+mattersim_5M,cdie20,4.27873349496839,Double-bond isomerisation energies in cyclic systems,Large systems
+mattersim_5M,bsr36,35.547636194652846,Bond-separation reactions of saturated hydrocarbons,Large systems
+mattersim_5M,heavy28,1.4442899424995743,Noncovalent interaction energies between heavy element hydrides,Intermolecular NCIs
+mattersim_5M,adim6,3.921255616887402,Interaction energies of n-alkane dimers,Intermolecular NCIs
+mattersim_5M,s66,2.9531284698023836,Binding energies of noncovalently bound dimers,Intermolecular NCIs
+mattersim_5M,aconf,1.0575107894898148,Relative energies of alkane conformers,Intramolecular NCIs
+orb_v3_conservative_inf_omat__,amino20x4,1.504762307863241,Relative energies in amino acid conformers,Intramolecular NCIs
+orb_v3_conservative_inf_omat__,bhrot27,1.3148805120468088,Barrier heights for rotation around single bonds,Barrier heights
+orb_v3_conservative_inf_omat__,fh51,5.7101120850918425,Reaction energies in various (in-)organic systems,Small systems
+orb_v3_conservative_inf_omat__,taut15,4.217771877759298,Relative energies in tautomers,Small systems
+orb_v3_conservative_inf_omat__,wcpt18,7.92773954532937,Proton-transfer barriers in uncatalysed and water-catalysed reactions,Barrier heights
+orb_v3_conservative_inf_omat__,pconf21,2.550304592726119,Relative energies in tri- and tetrapeptide conformers,Intramolecular NCIs
+orb_v3_conservative_inf_omat__,darc,9.350167664105484,Reaction energies of Diels–Alder reactions,Large systems
+orb_v3_conservative_inf_omat__,iconf,1.3835212448793488,Relative energies in conformers of inorganic systems,Intramolecular NCIs
+orb_v3_conservative_inf_omat__,iso34,2.9934290224411675,Isomerisation energies of small and medium-sized organic molecules,Large systems
+orb_v3_conservative_inf_omat__,rg18,1.98491157113974,Interaction energies in rare-gas complexes,Intermolecular NCIs
+orb_v3_conservative_inf_omat__,px13,15.124132382840385,Proton-exchange barriers in H2O,Barrier heights
+orb_v3_conservative_inf_omat__,g2rc,8.126148084007264,Reaciton energies of selected G2/97 systems,Small systems
+orb_v3_conservative_inf_omat__,bhdiv10,6.562031284027124,Diverse reaction barrier heights,Barrier heights
+orb_v3_conservative_inf_omat__,bhperi,3.2156090376927433,Barrier heights of pericyclic reactions,Barrier heights
+orb_v3_conservative_inf_omat__,nbprc,11.328774115427322,Oligomerisations and H2 fragmentations of NH3/BH3 systems,Small systems
+orb_v3_conservative_inf_omat__,al2x6,3.957861913935518,Dimerisation energies of AlX3 compounds,Small systems
+orb_v3_conservative_inf_omat__,c60iso,31.852513185628247,Relative energies between C60 isomers,Large systems
+orb_v3_conservative_inf_omat__,sconf,1.2417931014117485,Relative energies of sugar conformers,Intramolecular NCIs
+orb_v3_conservative_inf_omat__,mconf,1.4508822224636042,Relative energies in melatonin conformers,Intramolecular NCIs
+orb_v3_conservative_inf_omat__,s22,2.3959298797346635,Binding energies of noncovalently bound dimers,Intermolecular NCIs
+orb_v3_conservative_inf_omat__,idisp,12.5857399661701,Intramolecular dispersion interactions,Intramolecular NCIs
+orb_v3_conservative_inf_omat__,hal59,1.8629978147571251,Binding energies in halogenated dimers (incl. halogen bonds),Intermolecular NCIs
+orb_v3_conservative_inf_omat__,but14diol,0.8407589913724955,Relative energies of sugar conformers,Intramolecular NCIs
+orb_v3_conservative_inf_omat__,carbhb12,1.2642014645417612,Hydrogen-bonded complexes between carbene analogues and H2O,Intermolecular NCIs
+orb_v3_conservative_inf_omat__,pnico23,1.0981427683664144,Interaction energies in pnicogen-containing dimers,Intermolecular NCIs
+orb_v3_conservative_inf_omat__,cdie20,1.679021411342644,Double-bond isomerisation energies in cyclic systems,Large systems
+orb_v3_conservative_inf_omat__,bsr36,2.5563328791193576,Bond-separation reactions of saturated hydrocarbons,Large systems
+orb_v3_conservative_inf_omat__,heavy28,0.8446571325063744,Noncovalent interaction energies between heavy element hydrides,Intermolecular NCIs
+orb_v3_conservative_inf_omat__,adim6,1.1970289779663956,Interaction energies of n-alkane dimers,Intermolecular NCIs
+orb_v3_conservative_inf_omat__,s66,1.363703087451258,Binding energies of noncovalently bound dimers,Intermolecular NCIs
+orb_v3_conservative_inf_omat__,aconf,0.8821794211834063,Relative energies of alkane conformers,Intramolecular NCIs

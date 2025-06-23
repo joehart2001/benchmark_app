@@ -1,7 +1,7 @@
-Model,MAE (Å)
-mace_mp_0a_D3,0.027
-mace_mp_0b3_D3,0.027
-mace_mpa_0_D3,0.019
-mace_omat_0_D3,0.084
-mace_matpes_PBE_0_D3,0.035
-mace_matpes_r2scan_0_D3,0.044
+Model,Lat Const MAE [Å] (PBE),Lat Const MAE [Å] (EXP),Lat Const Score ↓ (PBE),Rank (PBE)
+mace_mp_0a,0.058,0.049,1.0,2
+mace_omat_0,0.143,0.116,2.466,6
+mace_matpes_r2scan_cpu,0.062,0.048,1.069,3
+uma_sm_omat,0.052,0.054,0.897,1
+mattersim_5M,0.066,0.042,1.138,4
+orb_v3_conservative_inf_omat__,0.115,0.098,1.983,5

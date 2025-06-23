@@ -1,7 +1,7 @@
 Model,Intramolecular NCIs,Intermolecular NCIs,Small systems,Barrier heights,Large systems,All (WTMAD)
-mace_mp_0a_D3,59.60,23.27,42.62,31.41,59.75,45.04
-mace_mp_0b3_D3,52.95,59.05,37.13,29.92,39.76,47.90
-mace_mpa_0_D3,76.76,97.84,38.02,27.45,47.18,67.26
-mace_omat_0_D3,57.73,111.69,40.61,30.49,44.51,64.14
-mace_matpes_PBE_0_D3,39.48,29.20,32.05,23.46,43.04,34.60
-mace_matpes_r2scan_0_D3,76.34,79.65,43.65,33.15,116.75,74.42
+mace_mp_0a,58.55,33.94,41.57,29.25,65.19,47.81
+mace_omat_0,54.25,92.87,39.49,28.05,39.11,56.86
+mace_matpes_r2scan_cpu,15.07,19.36,16.43,11.90,23.67,17.21
+uma_sm_omat,34.32,51.38,66.34,13.44,20.53,37.27
+mattersim_5M,52.59,32.82,27.28,22.12,59.44,42.09
+orb_v3_conservative_inf_omat__,28.86,17.59,25.98,12.73,14.04,21.39

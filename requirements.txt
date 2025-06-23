@@ -7,5 +7,6 @@ zntrack
 tqdm
 pyyaml
 matplotlib
+ray
 git+https://github.com/joehart2001/mlipx.git@main#egg=mlipx
 

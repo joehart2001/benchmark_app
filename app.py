@@ -15,14 +15,18 @@ app = full_benchmark_compare(
     models=models,
     return_app=True,
     report=False,
+    ui="browser",
+    normalise_to_model="mace_mp_0a"
 )
 
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 10000))
+    port = int(os.environ.get("PORT", 8050))
     print(f"Starting Dash app on port {port}...")
-    app.run(host="0.0.0.0", port=port, debug=True)
+    app.run(host="0.0.0.0", port=port) #, debug=True)
+    #from mlipx.dash_utils import run_app
+    #run_app(app, ui="browser", port=port)
 
 
 

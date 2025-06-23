@@ -1,0 +1,15 @@
+species,reference,predicted
+butadiene-P1-ethene,-45.4,-42.0997075283052
+P2-butadiene-ethine,-60.8,-61.776520035743715
+P3-cpdiene-ethene,-29.9,-25.085185773849503
+ethine-cpdiene-P4,-33.6,-37.01093055133788
+P5-chdiene-ethene,-37.6,-30.542514541244486
+ethine-P6-chdiene,-49.0,-47.909577482032546
+malein-furane-P7,-14.0,-2.1840399333955247
+malein-furane-P7X,-15.9,-3.705927025986057
+maleinNH-P8-furane,-16.8,-3.2388924263002536
+maleinNH-P8X-furane,-18.9,-5.431817365264806
+P9-malein-cpdiene,-31.7,-17.643773683548034
+P9X-malein-cpdiene,-32.2,-17.810917352676597
+maleinNH-P10-cpdiene,-34.2,-18.847472012329263
+maleinNH-cpdiene-P10X,-34.6,-19.18527816467258

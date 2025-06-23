@@ -1,95 +1,95 @@
 build-crystals_BuildASEcrystal-Ag-fcc:
-  a: 4.082
+  a: 4.085
   c: null
   element: Ag
   lattice_type: fcc
   supercell: null
 build-crystals_BuildASEcrystal-Al-fcc:
-  a: 4.002
+  a: 4.05
   c: null
   element: Al
   lattice_type: fcc
   supercell: null
 build-crystals_BuildASEcrystal-Ba-bcc:
-  a: 4.976
+  a: 5.028
   c: null
   element: Ba
   lattice_type: bcc
   supercell: null
 build-crystals_BuildASEcrystal-C-diamond:
-  a: 3.562
+  a: 3.567
   c: null
   element: C
   lattice_type: diamond
   supercell: null
 build-crystals_BuildASEcrystal-Ca-fcc:
-  a: 5.463
+  a: 5.588
   c: null
   element: Ca
   lattice_type: fcc
   supercell: null
 build-crystals_BuildASEcrystal-Cs-bcc:
-  a: 6.106
+  a: 6.141
   c: null
   element: Cs
   lattice_type: bcc
   supercell: null
 build-crystals_BuildASEcrystal-Cu-fcc:
-  a: 3.568
+  a: 3.615
   c: null
   element: Cu
   lattice_type: fcc
   supercell: null
 build-crystals_BuildASEcrystal-GaAs-zincblende:
-  a: 5.69
+  a: 5.653
   c: null
   element: GaAs
   lattice_type: zincblende
   supercell: null
 build-crystals_BuildASEcrystal-Ge-diamond:
-  a: 5.719
+  a: 5.658
   c: null
   element: Ge
   lattice_type: diamond
   supercell: null
 build-crystals_BuildASEcrystal-K-bcc:
-  a: 5.191
+  a: 5.328
   c: null
   element: K
   lattice_type: bcc
   supercell: null
 build-crystals_BuildASEcrystal-Li-bcc:
-  a: 3.352
+  a: 3.51
   c: null
   element: Li
   lattice_type: bcc
   supercell: null
 build-crystals_BuildASEcrystal-LiCl-rocksalt:
-  a: 5.056
+  a: 5.143
   c: null
   element: LiCl
   lattice_type: rocksalt
   supercell: null
 build-crystals_BuildASEcrystal-LiF-rocksalt:
-  a: 3.995
+  a: 4.028
   c: null
   element: LiF
   lattice_type: rocksalt
   supercell: null
 build-crystals_BuildASEcrystal-MgO-rocksalt:
-  a: 4.203
+  a: 4.212
   c: null
   element: MgO
   lattice_type: rocksalt
   supercell: null
 build-crystals_BuildASEcrystal-Na-bcc:
-  a: 4.107
+  a: 4.291
   c: null
   element: Na
   lattice_type: bcc
   supercell: null
 build-crystals_BuildASEcrystal-NaCl-rocksalt:
-  a: 5.585
+  a: 5.64
   c: null
   element: NaCl
   lattice_type: rocksalt
@@ -107,69 +107,76 @@ build-crystals_BuildASEcrystal-Pd-fcc:
   lattice_type: fcc
   supercell: null
 build-crystals_BuildASEcrystal-Rb-bcc:
-  a: 5.572
+  a: 5.585
   c: null
   element: Rb
   lattice_type: bcc
   supercell: null
 build-crystals_BuildASEcrystal-Rh-fcc:
-  a: 3.76
+  a: 3.803
   c: null
   element: Rh
   lattice_type: fcc
   supercell: null
 build-crystals_BuildASEcrystal-Si-diamond:
-  a: 5.434
+  a: 5.431
   c: null
   element: Si
   lattice_type: diamond
   supercell: null
 build-crystals_BuildASEcrystal-SiC-2H-SiC:
-  a: 3.072
-  c: 5.029
+  a: 3.037
+  c: 5.048
   element: SiC
   lattice_type: 2H-SiC
   supercell: null
 build-crystals_BuildASEcrystal-Sr-fcc:
-  a: 5.908
+  a: 6.085
   c: null
   element: Sr
   lattice_type: fcc
   supercell: null
-mace_matpes_PBE_0_D3_DMCICE13Benchmark:
+initialize_LoadDataFile:
+  start: 0
+  step: 1
+  stop: null
+mace_matpes_r2scan_cpu_DMCICE13Benchmark:
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
-  model_name: mace_matpes_PBE_0_D3
-mace_matpes_PBE_0_D3_Elasticity:
+  model_name: mace_matpes_r2scan_cpu
+mace_matpes_r2scan_cpu_Elasticity:
   fmax: 0.05
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
-  model_name: mace_matpes_PBE_0_D3
-  n_materials: 100
+  model_name: mace_matpes_r2scan_cpu
+  n_jobs: 1
+  n_materials: 1
   norm_strains: &id001
-  - -0.1
-  - -0.05
-  - 0.05
-  - 0.1
+  - -0.01
+  - -0.005
+  - 0.005
+  - 0.01
   relax_structure: true
   shear_strains: &id002
-  - -0.02
-  - -0.01
-  - 0.01
-  - 0.02
-mace_matpes_PBE_0_D3_GMTKN55Benchmark:
+  - -0.06
+  - -0.03
+  - 0.03
+  - 0.06
+mace_matpes_r2scan_cpu_GMTKN55Benchmark:
   allowed_charge:
   - 0
   allowed_elements: null
@@ -178,25 +185,46 @@ mace_matpes_PBE_0_D3_GMTKN55Benchmark:
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
-  model_name: mace_matpes_PBE_0_D3
+  model_name: mace_matpes_r2scan_cpu
   skip_subsets: null
   subsets: []
-mace_matpes_PBE_0_D3_X23Benchmark:
+mace_matpes_r2scan_cpu_X23Benchmark:
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
-  model_name: mace_matpes_PBE_0_D3
-mace_matpes_PBE_0_D3_homonuclear-diatomics_HomonuclearDiatomics:
+  model_name: mace_matpes_r2scan_cpu
+mace_matpes_r2scan_cpu_config-0_MolecularDynamics:
+  data_id: -1
+  data_path: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    head: null
+    kwargs:
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
+    module: mace.calculators
+  print_energy_every: 1000
+  steps: 5
+  thermostat:
+    _cls: mlipx.nodes.molecular_dynamics.LangevinConfig
+    friction: 0.05
+    temperature: 330
+    timestep: 1
+mace_matpes_r2scan_cpu_homonuclear-diatomics_HomonuclearDiatomics:
   elements: &id003
   - X
   - H
@@ -318,45 +346,136 @@ mace_matpes_PBE_0_D3_homonuclear-diatomics_HomonuclearDiatomics:
   - Ts
   - Og
   eq_distance: null
+  het_diatomics: false
   max_distance: 6.0
   min_distance: 0.18
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   n_points: 100
-mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-1000:
-  node_idx: 5
-  total_no_nodes: 30
-mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
-  node_idx: 11
-  total_no_nodes: 30
-mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
-  node_idx: 17
-  total_no_nodes: 30
-mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
-  node_idx: 23
-  total_no_nodes: 30
-mace_matpes_PBE_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
-  node_idx: 29
-  total_no_nodes: 30
-mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-1000:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
+mace_matpes_r2scan_cpu_phonons-dispersion-pred_PhononAllBatch:
+  N_q_mesh: 6
+  check_completed: false
+  cpu: false
+  fmax: 0.005
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
+  mp_ids: &id004
+  - mp-1000
+  - mp-10009
+  - mp-10070
+  - mp-10074
+  - mp-10080
+  - mp-10096
+  - mp-10097
+  - mp-10103
+  - mp-10155
+  - mp-10159
+  - mp-10163
+  - mp-10165
+  - mp-10166
+  - mp-10167
+  - mp-10175
+  - mp-10182
+  - mp-10191
+  - mp-10219
+  - mp-1022
+  - mp-10223
+  - mp-10226
+  - mp-10233
+  - mp-10234
+  - mp-10246
+  - mp-10250
+  - mp-10251
+  - mp-10281
+  - mp-10288
+  - mp-10289
+  - mp-1029
+  - mp-10299
+  - mp-10314
+  - mp-10322
+  - mp-10334
+  - mp-10336
+  - mp-10337
+  - mp-10340
+  - mp-10344
+  - mp-10347
+  - mp-10348
+  - mp-10349
+  - mp-10368
+  - mp-10378
+  - mp-10381
+  - mp-1039
+  - mp-10390
+  - mp-10392
+  - mp-10401
+  - mp-10402
+  - mp-10408
+  - mp-10409
+  - mp-10410
+  - mp-10417
+  - mp-10418
+  - mp-10429
+  - mp-10444
+  - mp-1045
+  - mp-10461
+  - mp-1047
+  - mp-10474
+  - mp-10476
+  - mp-10485
+  - mp-10486
+  - mp-10487
+  - mp-10488
+  - mp-10489
+  - mp-10492
+  - mp-10495
+  - mp-10497
+  - mp-10499
+  - mp-10509
+  - mp-10510
+  - mp-10517
+  - mp-10520
+  - mp-10533
+  - mp-10534
+  - mp-10547
+  - mp-10550
+  - mp-10552
+  - mp-10555
+  - mp-10556
+  - mp-1056
+  - mp-10572
+  - mp-10577
+  - mp-10615
+  - mp-10616
+  - mp-10620
+  - mp-10623
+  - mp-10644
+  - mp-10662
+  - mp-10694
+  - mp-10695
+  - mp-1070
+  - mp-10731
+  - mp-10733
+  - mp-1074
+  - mp-10748
+  - mp-10760
+  - mp-10771
+  - mp-10776
+  n_jobs: 1
+  phonopy_yaml_dir: /Users/joehart/.cache/my_benchmark/alex_phonons/alex_phonon_data
   supercell: 3
   thermal_properties_temperatures:
   - 0
@@ -364,434 +483,401 @@ mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-1000:
   - 150
   - 300
   - 600
-mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10163:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10226:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10299:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_matpes_PBE_0_D3_phonons-fc2_PhononForceConstants_mp-10349:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Ag:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-Ag:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Al:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-Al:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Ba:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-Ba:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-C:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-C:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Ca:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-Ca:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Cs:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-Cs:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Cu:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-Cu:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-GaAs:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-GaAs:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Ge:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-Ge:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-K:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-K:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Li:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-Li:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-LiCl:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-LiCl:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-LiF:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-LiF:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-MgO:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-MgO:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Na:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-Na:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-NaCl:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-NaCl:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-NaF:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-NaF:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Pd:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-Pd:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Rb:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-Rb:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Rh:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-Rh:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Si:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-Si:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-SiC:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-SiC:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_matpes_PBE_0_D3_structure-optimization_StructureOptimization-Sr:
+mace_matpes_r2scan_cpu_structure-optimization_StructureOptimization-Sr:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/MACE-matpes-pbe-omat-ft.model
+      head: matpes_pbe
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/r2scan_cpu.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_DMCICE13Benchmark:
+mace_mp_0a_DMCICE13Benchmark:
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
-  model_name: mace_mp_0a_D3
-mace_mp_0a_D3_Elasticity:
+  model_name: mace_mp_0a
+mace_mp_0a_Elasticity:
   fmax: 0.05
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
-  model_name: mace_mp_0a_D3
-  n_materials: 100
+  model_name: mace_mp_0a
+  n_jobs: 1
+  n_materials: 1
   norm_strains: *id001
   relax_structure: true
   shear_strains: *id002
-mace_mp_0a_D3_GMTKN55Benchmark:
+mace_mp_0a_GMTKN55Benchmark:
   allowed_charge:
   - 0
   allowed_elements: null
@@ -800,66 +886,73 @@ mace_mp_0a_D3_GMTKN55Benchmark:
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
-  model_name: mace_mp_0a_D3
+  model_name: mace_mp_0a
   skip_subsets: null
   subsets: []
-mace_mp_0a_D3_X23Benchmark:
+mace_mp_0a_X23Benchmark:
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
-  model_name: mace_mp_0a_D3
-mace_mp_0a_D3_homonuclear-diatomics_HomonuclearDiatomics:
+  model_name: mace_mp_0a
+mace_mp_0a_config-0_MolecularDynamics:
+  data_id: -1
+  data_path: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    head: null
+    kwargs:
+      model: medium
+    module: mace.calculators
+  print_energy_every: 1000
+  steps: 5
+  thermostat:
+    _cls: mlipx.nodes.molecular_dynamics.LangevinConfig
+    friction: 0.05
+    temperature: 330
+    timestep: 1
+mace_mp_0a_homonuclear-diatomics_HomonuclearDiatomics:
   elements: *id003
   eq_distance: null
+  het_diatomics: false
   max_distance: 6.0
   min_distance: 0.18
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   n_points: 100
-mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-1000:
-  node_idx: 1
-  total_no_nodes: 30
-mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
-  node_idx: 7
-  total_no_nodes: 30
-mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
-  node_idx: 13
-  total_no_nodes: 30
-mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
-  node_idx: 19
-  total_no_nodes: 30
-mace_mp_0a_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
-  node_idx: 25
-  total_no_nodes: 30
-mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-1000:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
+mace_mp_0a_phonons-dispersion-pred_PhononAllBatch:
+  N_q_mesh: 6
+  check_completed: false
+  cpu: false
+  fmax: 0.005
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
+  mp_ids: *id004
+  n_jobs: 1
+  phonopy_yaml_dir: /Users/joehart/.cache/my_benchmark/alex_phonons/alex_phonon_data
   supercell: 3
   thermal_properties_temperatures:
   - 0
@@ -867,434 +960,378 @@ mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-1000:
   - 150
   - 300
   - 600
-mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10163:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: medium
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10226:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: medium
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10299:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: medium
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0a_D3_phonons-fc2_PhononForceConstants_mp-10349:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: medium
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0a_D3_structure-optimization_StructureOptimization-Ag:
+mace_mp_0a_structure-optimization_StructureOptimization-Ag:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-Al:
+mace_mp_0a_structure-optimization_StructureOptimization-Al:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-Ba:
+mace_mp_0a_structure-optimization_StructureOptimization-Ba:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-C:
+mace_mp_0a_structure-optimization_StructureOptimization-C:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-Ca:
+mace_mp_0a_structure-optimization_StructureOptimization-Ca:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-Cs:
+mace_mp_0a_structure-optimization_StructureOptimization-Cs:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-Cu:
+mace_mp_0a_structure-optimization_StructureOptimization-Cu:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-GaAs:
+mace_mp_0a_structure-optimization_StructureOptimization-GaAs:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-Ge:
+mace_mp_0a_structure-optimization_StructureOptimization-Ge:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-K:
+mace_mp_0a_structure-optimization_StructureOptimization-K:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-Li:
+mace_mp_0a_structure-optimization_StructureOptimization-Li:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-LiCl:
+mace_mp_0a_structure-optimization_StructureOptimization-LiCl:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-LiF:
+mace_mp_0a_structure-optimization_StructureOptimization-LiF:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-MgO:
+mace_mp_0a_structure-optimization_StructureOptimization-MgO:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-Na:
+mace_mp_0a_structure-optimization_StructureOptimization-Na:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-NaCl:
+mace_mp_0a_structure-optimization_StructureOptimization-NaCl:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-NaF:
+mace_mp_0a_structure-optimization_StructureOptimization-NaF:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-Pd:
+mace_mp_0a_structure-optimization_StructureOptimization-Pd:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-Rb:
+mace_mp_0a_structure-optimization_StructureOptimization-Rb:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-Rh:
+mace_mp_0a_structure-optimization_StructureOptimization-Rh:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-Si:
+mace_mp_0a_structure-optimization_StructureOptimization-Si:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-SiC:
+mace_mp_0a_structure-optimization_StructureOptimization-SiC:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0a_D3_structure-optimization_StructureOptimization-Sr:
+mace_mp_0a_structure-optimization_StructureOptimization-Sr:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
       model: medium
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_DMCICE13Benchmark:
+mace_omat_0_DMCICE13Benchmark:
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
-  model_name: mace_mp_0b3_D3
-mace_mp_0b3_D3_Elasticity:
+  model_name: mace_omat_0
+mace_omat_0_Elasticity:
   fmax: 0.05
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
-  model_name: mace_mp_0b3_D3
-  n_materials: 100
+  model_name: mace_omat_0
+  n_jobs: 1
+  n_materials: 1
   norm_strains: *id001
   relax_structure: true
   shear_strains: *id002
-mace_mp_0b3_D3_GMTKN55Benchmark:
+mace_omat_0_GMTKN55Benchmark:
   allowed_charge:
   - 0
   allowed_elements: null
@@ -1303,66 +1340,73 @@ mace_mp_0b3_D3_GMTKN55Benchmark:
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
-  model_name: mace_mp_0b3_D3
+  model_name: mace_omat_0
   skip_subsets: null
   subsets: []
-mace_mp_0b3_D3_X23Benchmark:
+mace_omat_0_X23Benchmark:
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
-  model_name: mace_mp_0b3_D3
-mace_mp_0b3_D3_homonuclear-diatomics_HomonuclearDiatomics:
+  model_name: mace_omat_0
+mace_omat_0_config-0_MolecularDynamics:
+  data_id: -1
+  data_path: null
+  model:
+    _cls: mlipx.nodes.generic_ase.GenericASECalculator
+    class_name: mace_mp
+    device: auto
+    head: null
+    kwargs:
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
+    module: mace.calculators
+  print_energy_every: 1000
+  steps: 5
+  thermostat:
+    _cls: mlipx.nodes.molecular_dynamics.LangevinConfig
+    friction: 0.05
+    temperature: 330
+    timestep: 1
+mace_omat_0_homonuclear-diatomics_HomonuclearDiatomics:
   elements: *id003
   eq_distance: null
+  het_diatomics: false
   max_distance: 6.0
   min_distance: 0.18
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   n_points: 100
-mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-1000:
-  node_idx: 2
-  total_no_nodes: 30
-mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
-  node_idx: 8
-  total_no_nodes: 30
-mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
-  node_idx: 14
-  total_no_nodes: 30
-mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
-  node_idx: 20
-  total_no_nodes: 30
-mace_mp_0b3_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
-  node_idx: 26
-  total_no_nodes: 30
-mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-1000:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
+mace_omat_0_phonons-dispersion-pred_PhononAllBatch:
+  N_q_mesh: 6
+  check_completed: false
+  cpu: false
+  fmax: 0.005
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
+  mp_ids: *id004
+  n_jobs: 1
+  phonopy_yaml_dir: /Users/joehart/.cache/my_benchmark/alex_phonons/alex_phonon_data
   supercell: 3
   thermal_properties_temperatures:
   - 0
@@ -1370,434 +1414,376 @@ mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-1000:
   - 150
   - 300
   - 600
-mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10163:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10226:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10299:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0b3_D3_phonons-fc2_PhononForceConstants_mp-10349:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ag:
+mace_omat_0_structure-optimization_StructureOptimization-Ag:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-Al:
+mace_omat_0_structure-optimization_StructureOptimization-Al:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ba:
+mace_omat_0_structure-optimization_StructureOptimization-Ba:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-C:
+mace_omat_0_structure-optimization_StructureOptimization-C:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ca:
+mace_omat_0_structure-optimization_StructureOptimization-Ca:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-Cs:
+mace_omat_0_structure-optimization_StructureOptimization-Cs:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-Cu:
+mace_omat_0_structure-optimization_StructureOptimization-Cu:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-GaAs:
+mace_omat_0_structure-optimization_StructureOptimization-GaAs:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-Ge:
+mace_omat_0_structure-optimization_StructureOptimization-Ge:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-K:
+mace_omat_0_structure-optimization_StructureOptimization-K:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-Li:
+mace_omat_0_structure-optimization_StructureOptimization-Li:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-LiCl:
+mace_omat_0_structure-optimization_StructureOptimization-LiCl:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-LiF:
+mace_omat_0_structure-optimization_StructureOptimization-LiF:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-MgO:
+mace_omat_0_structure-optimization_StructureOptimization-MgO:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-Na:
+mace_omat_0_structure-optimization_StructureOptimization-Na:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-NaCl:
+mace_omat_0_structure-optimization_StructureOptimization-NaCl:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-NaF:
+mace_omat_0_structure-optimization_StructureOptimization-NaF:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-Pd:
+mace_omat_0_structure-optimization_StructureOptimization-Pd:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-Rb:
+mace_omat_0_structure-optimization_StructureOptimization-Rb:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-Rh:
+mace_omat_0_structure-optimization_StructureOptimization-Rh:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-Si:
+mace_omat_0_structure-optimization_StructureOptimization-Si:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-SiC:
+mace_omat_0_structure-optimization_StructureOptimization-SiC:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mp_0b3_D3_structure-optimization_StructureOptimization-Sr:
+mace_omat_0_structure-optimization_StructureOptimization-Sr:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
     class_name: mace_mp
-    device: cuda
+    device: auto
+    head: null
     kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mp-0b3-medium.model
+      model: /Users/joehart/Desktop/0_Cambridge/0_MPhil_Scientific_Computing/MPhil_project/mlipx_testing/models/mace-omat-0-medium.model
     module: mace.calculators
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_DMCICE13Benchmark:
+mattersim_5M_DMCICE13Benchmark:
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
-  model_name: mace_mpa_0_D3
-mace_mpa_0_D3_Elasticity:
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
+  model_name: mattersim_5M
+mattersim_5M_Elasticity:
   fmax: 0.05
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
-  model_name: mace_mpa_0_D3
-  n_materials: 100
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
+  model_name: mattersim_5M
+  n_jobs: 1
+  n_materials: 1
   norm_strains: *id001
   relax_structure: true
   shear_strains: *id002
-mace_mpa_0_D3_GMTKN55Benchmark:
+mattersim_5M_GMTKN55Benchmark:
   allowed_charge:
   - 0
   allowed_elements: null
@@ -1805,67 +1791,52 @@ mace_mpa_0_D3_GMTKN55Benchmark:
   - 1
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
-  model_name: mace_mpa_0_D3
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
+  model_name: mattersim_5M
   skip_subsets: null
   subsets: []
-mace_mpa_0_D3_X23Benchmark:
+mattersim_5M_X23Benchmark:
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
-  model_name: mace_mpa_0_D3
-mace_mpa_0_D3_homonuclear-diatomics_HomonuclearDiatomics:
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
+  model_name: mattersim_5M
+mattersim_5M_homonuclear-diatomics_HomonuclearDiatomics:
   elements: *id003
   eq_distance: null
+  het_diatomics: false
   max_distance: 6.0
   min_distance: 0.18
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   n_points: 100
-mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-1000:
-  node_idx: 3
-  total_no_nodes: 30
-mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
-  node_idx: 9
-  total_no_nodes: 30
-mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
-  node_idx: 15
-  total_no_nodes: 30
-mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
-  node_idx: 21
-  total_no_nodes: 30
-mace_mpa_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
-  node_idx: 27
-  total_no_nodes: 30
-mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-1000:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
+mattersim_5M_phonons-dispersion-pred_PhononAllBatch:
+  N_q_mesh: 6
+  check_completed: false
+  cpu: false
+  fmax: 0.005
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
+  mp_ids: *id004
+  n_jobs: 1
+  phonopy_yaml_dir: /Users/joehart/.cache/my_benchmark/alex_phonons/alex_phonon_data
   supercell: 3
   thermal_properties_temperatures:
   - 0
@@ -1873,502 +1844,394 @@ mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-1000:
   - 150
   - 300
   - 600
-mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10163:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10226:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10299:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mpa_0_D3_phonons-fc2_PhononForceConstants_mp-10349:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_mpa_0_D3_structure-optimization_StructureOptimization-Ag:
+mattersim_5M_structure-optimization_StructureOptimization-Ag:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-Al:
+mattersim_5M_structure-optimization_StructureOptimization-Al:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-Ba:
+mattersim_5M_structure-optimization_StructureOptimization-Ba:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-C:
+mattersim_5M_structure-optimization_StructureOptimization-C:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-Ca:
+mattersim_5M_structure-optimization_StructureOptimization-Ca:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-Cs:
+mattersim_5M_structure-optimization_StructureOptimization-Cs:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-Cu:
+mattersim_5M_structure-optimization_StructureOptimization-Cu:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-GaAs:
+mattersim_5M_structure-optimization_StructureOptimization-GaAs:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-Ge:
+mattersim_5M_structure-optimization_StructureOptimization-Ge:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-K:
+mattersim_5M_structure-optimization_StructureOptimization-K:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-Li:
+mattersim_5M_structure-optimization_StructureOptimization-Li:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-LiCl:
+mattersim_5M_structure-optimization_StructureOptimization-LiCl:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-LiF:
+mattersim_5M_structure-optimization_StructureOptimization-LiF:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-MgO:
+mattersim_5M_structure-optimization_StructureOptimization-MgO:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-Na:
+mattersim_5M_structure-optimization_StructureOptimization-Na:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-NaCl:
+mattersim_5M_structure-optimization_StructureOptimization-NaCl:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-NaF:
+mattersim_5M_structure-optimization_StructureOptimization-NaF:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-Pd:
+mattersim_5M_structure-optimization_StructureOptimization-Pd:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-Rb:
+mattersim_5M_structure-optimization_StructureOptimization-Rb:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-Rh:
+mattersim_5M_structure-optimization_StructureOptimization-Rh:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-Si:
+mattersim_5M_structure-optimization_StructureOptimization-Si:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-SiC:
+mattersim_5M_structure-optimization_StructureOptimization-SiC:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_mpa_0_D3_structure-optimization_StructureOptimization-Sr:
+mattersim_5M_structure-optimization_StructureOptimization-Sr:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
     _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-mpa-0-medium.model
-    module: mace.calculators
+    class_name: MatterSimCalculator
+    device: cpu
+    head: null
+    kwargs: {}
+    module: mattersim.forcefield
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_DMCICE13Benchmark:
+orb_v3_conservative_inf_omat___DMCICE13Benchmark:
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
-  model_name: mace_omat_0_D3
-mace_omat_0_D3_Elasticity:
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
+  model_name: orb_v3_conservative_inf_omat__
+orb_v3_conservative_inf_omat___Elasticity:
   fmax: 0.05
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
-  model_name: mace_omat_0_D3
-  n_materials: 100
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
+  model_name: orb_v3_conservative_inf_omat__
+  n_jobs: 1
+  n_materials: 1
   norm_strains: *id001
   relax_structure: true
   shear_strains: *id002
-mace_omat_0_D3_GMTKN55Benchmark:
+orb_v3_conservative_inf_omat___GMTKN55Benchmark:
   allowed_charge:
   - 0
   allowed_elements: null
   allowed_multiplicity:
   - 1
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
-  model_name: mace_omat_0_D3
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
+  model_name: orb_v3_conservative_inf_omat__
   skip_subsets: null
   subsets: []
-mace_omat_0_D3_X23Benchmark:
+orb_v3_conservative_inf_omat___X23Benchmark:
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
-  model_name: mace_omat_0_D3
-mace_omat_0_D3_homonuclear-diatomics_HomonuclearDiatomics:
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
+  model_name: orb_v3_conservative_inf_omat__
+orb_v3_conservative_inf_omat___homonuclear-diatomics_HomonuclearDiatomics:
   elements: *id003
   eq_distance: null
+  het_diatomics: false
   max_distance: 6.0
   min_distance: 0.18
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   n_points: 100
-mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-1000:
-  node_idx: 4
-  total_no_nodes: 30
-mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10163:
-  node_idx: 10
-  total_no_nodes: 30
-mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10226:
-  node_idx: 16
-  total_no_nodes: 30
-mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10299:
-  node_idx: 22
-  total_no_nodes: 30
-mace_omat_0_D3_phonons-dispersion-pred_PhononDispersion_mp-10349:
-  node_idx: 28
-  total_no_nodes: 30
-mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-1000:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
+orb_v3_conservative_inf_omat___phonons-dispersion-pred_PhononAllBatch:
+  N_q_mesh: 6
+  check_completed: false
+  cpu: false
+  fmax: 0.005
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
+  mp_ids: *id004
+  n_jobs: 1
+  phonopy_yaml_dir: /Users/joehart/.cache/my_benchmark/alex_phonons/alex_phonon_data
   supercell: 3
   thermal_properties_temperatures:
   - 0
@@ -2376,434 +2239,666 @@ mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-1000:
   - 150
   - 300
   - 600
-mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10163:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10226:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10299:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_omat_0_D3_phonons-fc2_PhononForceConstants_mp-10349:
-  N_q_mesh: 20
-  delta: 0.05
-  fmax: 0.0001
-  material_idx: 0
-  model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
-  supercell: 3
-  thermal_properties_temperatures:
-  - 0
-  - 75
-  - 150
-  - 300
-  - 600
-mace_omat_0_D3_structure-optimization_StructureOptimization-Ag:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-Ag:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-Al:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-Al:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-Ba:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-Ba:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-C:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-C:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-Ca:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-Ca:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-Cs:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-Cs:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-Cu:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-Cu:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-GaAs:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-GaAs:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-Ge:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-Ge:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-K:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-K:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-Li:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-Li:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-LiCl:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-LiCl:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-LiF:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-LiF:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-MgO:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-MgO:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-Na:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-Na:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-NaCl:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-NaCl:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-NaF:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-NaF:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-Pd:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-Pd:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-Rb:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-Rb:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-Rh:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-Rh:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-Si:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-Si:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-SiC:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-SiC:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-mace_omat_0_D3_structure-optimization_StructureOptimization-Sr:
+orb_v3_conservative_inf_omat___structure-optimization_StructureOptimization-Sr:
+  constraint: null
   data_id: -1
   filter: FrechetCellFilter
   fmax: 0.03
   model:
-    _cls: mlipx.nodes.generic_ase.GenericASECalculator
-    class_name: mace_mp
-    device: cuda
-    kwargs:
-      dispersion: true
-      model: /home/jh2536/rds/hpc-work/models/mace-omat-0-medium.model
-    module: mace.calculators
+    _cls: models.OrbCalc
+    device: cpu
+    kwargs: {}
+    name: orb_v3_conservative_inf_omat
   optimizer: LBFGS
   steps: 100000000
-phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-1000:
-  node_idx: null
-  total_no_nodes: null
-phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10163:
-  node_idx: null
-  total_no_nodes: null
-phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10226:
-  node_idx: null
-  total_no_nodes: null
-phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10299:
-  node_idx: null
-  total_no_nodes: null
-phonon-reference_phonons-dispersion-ref_PhononDispersion_mp-10349:
-  node_idx: null
-  total_no_nodes: null
-phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-1000:
-  phonopy_yaml_path: /home/jh2536/.cache/my_benchmark/alex_phonons/alex_phonon_data/mp-1000.yaml
-phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10163:
-  phonopy_yaml_path: /home/jh2536/.cache/my_benchmark/alex_phonons/alex_phonon_data/mp-10163.yaml
-phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10226:
-  phonopy_yaml_path: /home/jh2536/.cache/my_benchmark/alex_phonons/alex_phonon_data/mp-10226.yaml
-phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10299:
-  phonopy_yaml_path: /home/jh2536/.cache/my_benchmark/alex_phonons/alex_phonon_data/mp-10299.yaml
-phonon-reference_phonons-ref-to-node_PhononRefToNode_mp-10349:
-  phonopy_yaml_path: /home/jh2536/.cache/my_benchmark/alex_phonons/alex_phonon_data/mp-10349.yaml
+phonons-dispersion-ref_PhononAllRef:
+  mp_ids: *id004
+  phonopy_yaml_dir: /Users/joehart/.cache/my_benchmark/alex_phonons/alex_phonon_data
 ref_lattice-constant_Lattice-ref-types:
-  ref_path: /home/jh2536/.cache/my_benchmark/lattice_constants/lattice_constants_ref_types.json
-ref_lattice-constant_LatticeConst-ref:
-  ref_path: /home/jh2536/.cache/my_benchmark/lattice_constants/lattice_constants_ref.json
+  ref_path: /Users/joehart/.cache/my_benchmark/lattice_constants/lattice_constants_ref_types.json
+ref_lattice-constant_LatticeConst-ref-dft:
+  ref_path: /Users/joehart/.cache/my_benchmark/lattice_constants/lattice_constants_ref.json
+ref_lattice-constant_LatticeConst-ref-exp:
+  ref_path: /Users/joehart/.cache/my_benchmark/lattice_constants/lattice_constants_ref_exp.json
+uma_sm_omat_DMCICE13Benchmark:
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  model_name: uma_sm_omat
+uma_sm_omat_Elasticity:
+  fmax: 0.05
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  model_name: uma_sm_omat
+  n_jobs: 1
+  n_materials: 1
+  norm_strains: *id001
+  relax_structure: true
+  shear_strains: *id002
+uma_sm_omat_GMTKN55Benchmark:
+  allowed_charge:
+  - 0
+  allowed_elements: null
+  allowed_multiplicity:
+  - 1
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  model_name: uma_sm_omat
+  skip_subsets: null
+  subsets: []
+uma_sm_omat_X23Benchmark:
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  model_name: uma_sm_omat
+uma_sm_omat_homonuclear-diatomics_HomonuclearDiatomics:
+  elements: *id003
+  eq_distance: null
+  het_diatomics: false
+  max_distance: 6.0
+  min_distance: 0.18
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  n_points: 100
+uma_sm_omat_phonons-dispersion-pred_PhononAllBatch:
+  N_q_mesh: 6
+  check_completed: false
+  cpu: false
+  fmax: 0.005
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  mp_ids: *id004
+  n_jobs: 1
+  phonopy_yaml_dir: /Users/joehart/.cache/my_benchmark/alex_phonons/alex_phonon_data
+  supercell: 3
+  thermal_properties_temperatures:
+  - 0
+  - 75
+  - 150
+  - 300
+  - 600
+uma_sm_omat_structure-optimization_StructureOptimization-Ag:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-Al:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-Ba:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-C:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-Ca:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-Cs:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-Cu:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-GaAs:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-Ge:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-K:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-Li:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-LiCl:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-LiF:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-MgO:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-Na:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-NaCl:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-NaF:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-Pd:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-Rb:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-Rh:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-Si:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-SiC:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
+uma_sm_omat_structure-optimization_StructureOptimization-Sr:
+  constraint: null
+  data_id: -1
+  filter: FrechetCellFilter
+  fmax: 0.03
+  model:
+    _cls: models.FairChemCalc
+    device: cpu
+    model_name: uma-s-1
+    overrides: {}
+    task_name: omat
+  optimizer: LBFGS
+  steps: 100000000
