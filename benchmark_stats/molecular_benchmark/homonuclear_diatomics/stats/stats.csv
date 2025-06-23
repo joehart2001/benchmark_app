@@ -1,7 +1,0 @@
-Model,Force flips,Tortuosity,Energy minima,Energy inflections,Spearman's coeff. (E: repulsion),Spearman's coeff. (F: descending),Spearman's coeff. (E: attraction),Spearman's coeff. (F: ascending),Score,Rank
-mattersim_5M,2.17,1.002,1.606,2.479,-0.999,-0.973,0.889,0.618,0.449,2
-mace_omat_0,1.966,1.011,1.449,2.236,-0.998,-0.94,0.783,0.366,0.425,1
-orb_v3_conservative_inf_omat__,2.906,1.0,1.624,2.564,-0.978,-0.927,0.634,0.537,0.597,3
-mace_matpes_r2scan_cpu,2.719,1.019,1.843,3.337,-0.999,-0.893,0.643,0.212,0.734,4
-mace_mp_0a,3.753,1.174,2.146,3.315,-0.959,-0.916,0.147,-0.043,1.0,5
-uma_sm_omat,10.121,3.201,4.768,16.111,-0.538,-0.403,0.312,0.142,3.901,6

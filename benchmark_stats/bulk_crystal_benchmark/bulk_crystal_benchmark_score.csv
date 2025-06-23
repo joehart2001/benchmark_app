@@ -1,7 +1,0 @@
-Model,Avg MAE ↓,Rank
-mace_matpes_r2scan_cpu,0.675,1.0
-mattersim_5M,0.708,2.0
-mace_omat_0,0.79,3.0
-mace_mp_0a,1.0,4.0
-uma_sm_omat,1.752,5.0
-orb_v3_conservative_inf_omat__,2.803,6.0

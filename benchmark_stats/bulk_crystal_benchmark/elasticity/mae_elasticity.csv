@@ -1,7 +1,0 @@
-Model,K_bulk [GPa],K_shear [GPa],excluded count,Elasticity Score ↓,Rank
-mace_mp_0a,21.988,21.127,28.0,0.667,5
-mace_omat_0,24.862,16.904,26.0,0.644,4
-mace_matpes_r2scan_cpu,24.068,15.594,27.0,0.611,3
-uma_sm_omat,27.427,17.97,54.0,0.699,6
-mattersim_5M,22.903,15.075,18.0,0.585,2
-orb_v3_conservative_inf_omat__,18.93,15.278,25.0,0.528,1

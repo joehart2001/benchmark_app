@@ -1,4 +1,0 @@
-Model,Avg MAE ↓,Rank
-mace_matpes_r2scan_cpu,0.7,1.0
-mace_omat_0,0.917,2.0
-mace_mp_0a,1.0,3.0

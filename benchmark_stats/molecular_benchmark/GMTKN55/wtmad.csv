@@ -1,7 +1,0 @@
-Model,Weighted Total MAD/MAE [kcal/mol] ↓,Score,Rank
-mace_mp_0a,47.814,1.0,5.0
-mace_omat_0,56.861,1.189,6.0
-mace_matpes_r2scan_cpu,17.209,0.36,1.0
-uma_sm_omat,37.267,0.779,3.0
-mattersim_5M,42.088,0.88,4.0
-orb_v3_conservative_inf_omat__,21.392,0.447,2.0
